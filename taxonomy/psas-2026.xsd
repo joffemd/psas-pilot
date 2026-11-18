@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:psas="http://xbrl.example.org/ca-psas/2026" targetNamespace="http://xbrl.example.org/ca-psas/2026" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xsd:annotation><xsd:appinfo>
+    <link:linkbaseRef xlink:type="simple" xlink:href="psas-2026-lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+    <link:roleType roleURI="http://xbrl.example.org/ca-psas/2026/role/StatementOfOperations" id="StatementOfOperations">
+      <link:definition>Statement of Operations</link:definition>
+      <link:usedOn>link:presentationLink</link:usedOn>
+      <link:usedOn>link:calculationLink</link:usedOn>
+      <link:usedOn>link:definitionLink</link:usedOn>
+    </link:roleType>
+    <link:roleType roleURI="http://xbrl.example.org/ca-psas/2026/role/StatementOfFinancialPosition" id="StatementOfFinancialPosition">
+      <link:definition>Statement of Financial Position</link:definition>
+      <link:usedOn>link:presentationLink</link:usedOn>
+      <link:usedOn>link:calculationLink</link:usedOn>
+      <link:usedOn>link:definitionLink</link:usedOn>
+    </link:roleType>
+    <link:roleType roleURI="http://xbrl.example.org/ca-psas/2026/role/AccumulatedSurplusDeficitComponents" id="AccumulatedSurplusDeficitComponents">
+      <link:definition>Components of Accumulated Surplus (Deficit)</link:definition>
+      <link:usedOn>link:presentationLink</link:usedOn>
+      <link:usedOn>link:calculationLink</link:usedOn>
+      <link:usedOn>link:definitionLink</link:usedOn>
+    </link:roleType>
+    <link:roleType roleURI="http://xbrl.example.org/ca-psas/2026/role/StatementOfChangeInNetDebt" id="StatementOfChangeInNetDebt">
+      <link:definition>Statement of Change in Net Debt (Net Financial Assets)</link:definition>
+      <link:usedOn>link:presentationLink</link:usedOn>
+      <link:usedOn>link:calculationLink</link:usedOn>
+      <link:usedOn>link:definitionLink</link:usedOn>
+    </link:roleType>
+    <link:roleType roleURI="http://xbrl.example.org/ca-psas/2026/role/StatementOfChangeInAccumulatedOperatingSurplusDeficit" id="StatementOfChangeInAccumulatedOperatingSurplusDeficit">
+      <link:definition>Statement of Change in Accumulated Operating Surplus (Deficit)</link:definition>
+      <link:usedOn>link:presentationLink</link:usedOn>
+      <link:usedOn>link:calculationLink</link:usedOn>
+      <link:usedOn>link:definitionLink</link:usedOn>
+    </link:roleType>
+    <link:roleType roleURI="http://xbrl.example.org/ca-psas/2026/role/StatementOfRemeasurementGainsAndLosses" id="StatementOfRemeasurementGainsAndLosses">
+      <link:definition>Statement of Remeasurement Gains and Losses</link:definition>
+      <link:usedOn>link:presentationLink</link:usedOn>
+      <link:usedOn>link:calculationLink</link:usedOn>
+      <link:usedOn>link:definitionLink</link:usedOn>
+    </link:roleType>
+    <link:roleType roleURI="http://xbrl.example.org/ca-psas/2026/role/StatementOfCashFlow" id="StatementOfCashFlow">
+      <link:definition>Statement of Cash Flow</link:definition>
+      <link:usedOn>link:presentationLink</link:usedOn>
+      <link:usedOn>link:calculationLink</link:usedOn>
+      <link:usedOn>link:definitionLink</link:usedOn>
+    </link:roleType>
+  </xsd:appinfo></xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:element id="psas_PersonalIncomeTaxRevenue" name="PersonalIncomeTaxRevenue" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_SalesTaxRevenue" name="SalesTaxRevenue" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_CorporateIncomeTaxRevenue" name="CorporateIncomeTaxRevenue" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_PayrollTaxRevenue" name="PayrollTaxRevenue" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_PropertyTaxRevenue" name="PropertyTaxRevenue" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_FuelTaxRevenue" name="FuelTaxRevenue" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_OtherTaxRevenue" name="OtherTaxRevenue" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_TaxRevenue" name="TaxRevenue" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_TransfersFromFederalGovernmentRevenue" name="TransfersFromFederalGovernmentRevenue" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_IncomeFromGovernmentBusinessEnterprises" name="IncomeFromGovernmentBusinessEnterprises" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_InterestAndInvestmentIncome" name="InterestAndInvestmentIncome" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_OtherRevenue" name="OtherRevenue" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_Revenues" name="Revenues" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_HealthExpense" name="HealthExpense" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_EducationExpense" name="EducationExpense" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_PostsecondaryEducationExpense" name="PostsecondaryEducationExpense" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_SocialServicesExpense" name="SocialServicesExpense" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_JusticeExpense" name="JusticeExpense" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_DebtServicingExpense" name="DebtServicingExpense" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_OtherProgramExpense" name="OtherProgramExpense" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_Expenses" name="Expenses" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_BudgetReserve" name="BudgetReserve" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_AnnualSurplusDeficit" name="AnnualSurplusDeficit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_AccountsPayableAndAccruedLiabilities" name="AccountsPayableAndAccruedLiabilities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_Debt" name="Debt" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_OtherLongTermFinancing" name="OtherLongTermFinancing" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_DeferredRevenueAndCapitalContributions" name="DeferredRevenueAndCapitalContributions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_PensionAndOtherEmployeeFutureBenefitsLiability" name="PensionAndOtherEmployeeFutureBenefitsLiability" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_DerivativeLiabilities" name="DerivativeLiabilities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_OtherLiabilities" name="OtherLiabilities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_Liabilities" name="Liabilities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_CashAndCashEquivalents" name="CashAndCashEquivalents" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_Cash" name="Cash" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_CashEquivalents" name="CashEquivalents" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_PortfolioInvestments" name="PortfolioInvestments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_AccountsReceivable" name="AccountsReceivable" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_LoansReceivable" name="LoansReceivable" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_DerivativeAssets" name="DerivativeAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_OtherFinancialAssets" name="OtherFinancialAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_InvestmentInGovernmentBusinessEnterprises" name="InvestmentInGovernmentBusinessEnterprises" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_FinancialAssets" name="FinancialAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_NetFinancialAssetsLiabilities" name="NetFinancialAssetsLiabilities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_TangibleCapitalAssets" name="TangibleCapitalAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_PrepaidExpensesAndOtherNonFinancialAssets" name="PrepaidExpensesAndOtherNonFinancialAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_NonFinancialAssets" name="NonFinancialAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_AccumulatedSurplusDeficit" name="AccumulatedSurplusDeficit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_AccumulatedOperatingSurplusDeficit" name="AccumulatedOperatingSurplusDeficit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_AccumulatedRemeasurementGainsLosses" name="AccumulatedRemeasurementGainsLosses" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true"/>
+  <xsd:element id="psas_AcquisitionOfTangibleCapitalAssets" name="AcquisitionOfTangibleCapitalAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_AmortizationOfTangibleCapitalAssets" name="AmortizationOfTangibleCapitalAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_ProceedsOnSaleOfTangibleCapitalAssets" name="ProceedsOnSaleOfTangibleCapitalAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_LossGainOnSaleOfTangibleCapitalAssets" name="LossGainOnSaleOfTangibleCapitalAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_IncreaseInTangibleCapitalAssetsFromAssetRetirementObligationRevaluation" name="IncreaseInTangibleCapitalAssetsFromAssetRetirementObligationRevaluation" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets" name="IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets" name="EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement" name="IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_NetRemeasurementGainsLosses" name="NetRemeasurementGainsLosses" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_IncreaseDecreaseInNetFinancialAssets" name="IncreaseDecreaseInNetFinancialAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_UnrealizedGainsLossesForeignExchange" name="UnrealizedGainsLossesForeignExchange" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_UnrealizedGainsLossesDerivatives" name="UnrealizedGainsLossesDerivatives" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_UnrealizedGainsLossesPortfolioInvestments" name="UnrealizedGainsLossesPortfolioInvestments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_OtherComprehensiveIncomeFromGovernmentBusinessEnterprises" name="OtherComprehensiveIncomeFromGovernmentBusinessEnterprises" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_RemeasurementReclassifiedToOperationsForeignExchange" name="RemeasurementReclassifiedToOperationsForeignExchange" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_RemeasurementReclassifiedToOperationsDerivatives" name="RemeasurementReclassifiedToOperationsDerivatives" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_RemeasurementReclassifiedToOperationsPortfolioInvestments" name="RemeasurementReclassifiedToOperationsPortfolioInvestments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_AdjustmentForContributedTangibleCapitalAssets" name="AdjustmentForContributedTangibleCapitalAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_AdjustmentForInYearRemeasurementGainsLossesExcludingGovernmentBusinessEnterprises" name="AdjustmentForInYearRemeasurementGainsLossesExcludingGovernmentBusinessEnterprises" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_AdjustmentForDeferredLossesFromGovernmentBusinessEnterprises" name="AdjustmentForDeferredLossesFromGovernmentBusinessEnterprises" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_AdjustmentForDecreaseIncreaseInAccountsReceivable" name="AdjustmentForDecreaseIncreaseInAccountsReceivable" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_AdjustmentForDecreaseIncreaseInLoansReceivable" name="AdjustmentForDecreaseIncreaseInLoansReceivable" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_AdjustmentForIncreaseDecreaseInAccountsPayableAndAccruedLiabilities" name="AdjustmentForIncreaseDecreaseInAccountsPayableAndAccruedLiabilities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_AdjustmentForIncreaseDecreaseInPensionAndOtherEmployeeFutureBenefitsLiability" name="AdjustmentForIncreaseDecreaseInPensionAndOtherEmployeeFutureBenefitsLiability" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_AdjustmentForIncreaseDecreaseInOtherLiabilities" name="AdjustmentForIncreaseDecreaseInOtherLiabilities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_AdjustmentForIncreaseDecreaseInDeferredRevenueAndCapitalContributions" name="AdjustmentForIncreaseDecreaseInDeferredRevenueAndCapitalContributions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_RemittancesFromGovernmentBusinessEnterprises" name="RemittancesFromGovernmentBusinessEnterprises" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_AdjustmentForDecreaseIncreaseInOtherFinancialAssets" name="AdjustmentForDecreaseIncreaseInOtherFinancialAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_CashProvidedByAppliedToOperatingTransactions" name="CashProvidedByAppliedToOperatingTransactions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_PaymentsToAcquireTangibleCapitalAssets" name="PaymentsToAcquireTangibleCapitalAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_CashProvidedByAppliedToCapitalTransactions" name="CashProvidedByAppliedToCapitalTransactions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_PaymentsToPurchasePortfolioInvestments" name="PaymentsToPurchasePortfolioInvestments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_ProceedsFromPortfolioInvestmentsRetired" name="ProceedsFromPortfolioInvestmentsRetired" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_CapitalContributionsToGovernmentBusinessEnterprises" name="CapitalContributionsToGovernmentBusinessEnterprises" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_CashProvidedByAppliedToInvestingTransactions" name="CashProvidedByAppliedToInvestingTransactions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_ProceedsFromLongTermDebtIssued" name="ProceedsFromLongTermDebtIssued" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_RepaymentsOfLongTermDebt" name="RepaymentsOfLongTermDebt" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_DecreaseIncreaseInUnamortizedDebtDiscountsPremiumsAndCommissions" name="DecreaseIncreaseInUnamortizedDebtDiscountsPremiumsAndCommissions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_IncreaseDecreaseInShortTermDebt" name="IncreaseDecreaseInShortTermDebt" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_IncreaseDecreaseInOtherLongTermFinancing" name="IncreaseDecreaseInOtherLongTermFinancing" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_IncreaseDecreaseInDerivativeLiabilities" name="IncreaseDecreaseInDerivativeLiabilities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_DecreaseIncreaseInDerivativeAssets" name="DecreaseIncreaseInDerivativeAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_CashProvidedByAppliedToFinancingTransactions" name="CashProvidedByAppliedToFinancingTransactions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_IncreaseDecreaseInCashAndCashEquivalents" name="IncreaseDecreaseInCashAndCashEquivalents" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_StatementOfOperationsAbstract" name="StatementOfOperationsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_StatementOfFinancialPositionAbstract" name="StatementOfFinancialPositionAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_AccumulatedSurplusDeficitComponentsAbstract" name="AccumulatedSurplusDeficitComponentsAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_StatementOfChangeInNetDebtAbstract" name="StatementOfChangeInNetDebtAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_StatementOfChangeInAccumulatedOperatingSurplusDeficitAbstract" name="StatementOfChangeInAccumulatedOperatingSurplusDeficitAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_StatementOfRemeasurementGainsAndLossesAbstract" name="StatementOfRemeasurementGainsAndLossesAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_StatementOfCashFlowAbstract" name="StatementOfCashFlowAbstract" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_BudgetComparisonTable" name="BudgetComparisonTable" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:hypercubeItem" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_StatementScenarioAxis" name="StatementScenarioAxis" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrldt:dimensionItem" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_BudgetComparisonLineItems" name="BudgetComparisonLineItems" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_ScenarioDomain" name="ScenarioDomain" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_ActualMember" name="ActualMember" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="psas_BudgetMember" name="BudgetMember" type="xbrli:stringItemType" abstract="true" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+</xsd:schema>

@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_PersonalIncomeTaxRevenue" xlink:label="loc_PersonalIncomeTaxRevenue"/>
+    <link:label xlink:type="resource" xlink:label="lab_PersonalIncomeTaxRevenue_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Personal income tax revenue</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_PersonalIncomeTaxRevenue" xlink:to="lab_PersonalIncomeTaxRevenue_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_PersonalIncomeTaxRevenue_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Revenue from taxes on personal income (PS 3510). COFOG/GFS 1111.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_PersonalIncomeTaxRevenue" xlink:to="lab_PersonalIncomeTaxRevenue_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_SalesTaxRevenue" xlink:label="loc_SalesTaxRevenue"/>
+    <link:label xlink:type="resource" xlink:label="lab_SalesTaxRevenue_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Sales tax revenue</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_SalesTaxRevenue" xlink:to="lab_SalesTaxRevenue_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_SalesTaxRevenue_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Revenue from general sales and value-added taxes (PS 3510). GFS 1141.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_SalesTaxRevenue" xlink:to="lab_SalesTaxRevenue_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_CorporateIncomeTaxRevenue" xlink:label="loc_CorporateIncomeTaxRevenue"/>
+    <link:label xlink:type="resource" xlink:label="lab_CorporateIncomeTaxRevenue_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Corporate income tax revenue</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_CorporateIncomeTaxRevenue" xlink:to="lab_CorporateIncomeTaxRevenue_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_CorporateIncomeTaxRevenue_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Revenue from taxes on corporate income (PS 3510). GFS 1112.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_CorporateIncomeTaxRevenue" xlink:to="lab_CorporateIncomeTaxRevenue_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_PayrollTaxRevenue" xlink:label="loc_PayrollTaxRevenue"/>
+    <link:label xlink:type="resource" xlink:label="lab_PayrollTaxRevenue_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payroll tax revenue</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_PayrollTaxRevenue" xlink:to="lab_PayrollTaxRevenue_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_PayrollTaxRevenue_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Revenue from taxes on payroll and workforce, e.g. employer health taxes (PS 3510). GFS 112.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_PayrollTaxRevenue" xlink:to="lab_PayrollTaxRevenue_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_PropertyTaxRevenue" xlink:label="loc_PropertyTaxRevenue"/>
+    <link:label xlink:type="resource" xlink:label="lab_PropertyTaxRevenue_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Property tax revenue</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_PropertyTaxRevenue" xlink:to="lab_PropertyTaxRevenue_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_PropertyTaxRevenue_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Revenue from taxes on property, including education property taxes (PS 3510). GFS 113.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_PropertyTaxRevenue" xlink:to="lab_PropertyTaxRevenue_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_FuelTaxRevenue" xlink:label="loc_FuelTaxRevenue"/>
+    <link:label xlink:type="resource" xlink:label="lab_FuelTaxRevenue_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Fuel tax revenue</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_FuelTaxRevenue" xlink:to="lab_FuelTaxRevenue_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_FuelTaxRevenue_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Revenue from excise taxes on gasoline and other fuels (PS 3510). GFS 1142.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_FuelTaxRevenue" xlink:to="lab_FuelTaxRevenue_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_OtherTaxRevenue" xlink:label="loc_OtherTaxRevenue"/>
+    <link:label xlink:type="resource" xlink:label="lab_OtherTaxRevenue_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Other tax revenue</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_OtherTaxRevenue" xlink:to="lab_OtherTaxRevenue_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_OtherTaxRevenue_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Tax revenue not separately presented (PS 3510).</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_OtherTaxRevenue" xlink:to="lab_OtherTaxRevenue_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_TaxRevenue" xlink:label="loc_TaxRevenue"/>
+    <link:label xlink:type="resource" xlink:label="lab_TaxRevenue_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tax revenue</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_TaxRevenue" xlink:to="lab_TaxRevenue_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_TaxRevenue_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Total revenue from taxation (PS 3510). GFS 11.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_TaxRevenue" xlink:to="lab_TaxRevenue_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_TransfersFromFederalGovernmentRevenue" xlink:label="loc_TransfersFromFederalGovernmentRevenue"/>
+    <link:label xlink:type="resource" xlink:label="lab_TransfersFromFederalGovernmentRevenue_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Transfers from federal government</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_TransfersFromFederalGovernmentRevenue" xlink:to="lab_TransfersFromFederalGovernmentRevenue_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_TransfersFromFederalGovernmentRevenue_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Government transfer revenue received from the federal (national) government (PS 3410). GFS 1322.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_TransfersFromFederalGovernmentRevenue" xlink:to="lab_TransfersFromFederalGovernmentRevenue_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_IncomeFromGovernmentBusinessEnterprises" xlink:label="loc_IncomeFromGovernmentBusinessEnterprises"/>
+    <link:label xlink:type="resource" xlink:label="lab_IncomeFromGovernmentBusinessEnterprises_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income from government business enterprises</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_IncomeFromGovernmentBusinessEnterprises" xlink:to="lab_IncomeFromGovernmentBusinessEnterprises_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_IncomeFromGovernmentBusinessEnterprises_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Share of net income of government business enterprises accounted for by the modified equity method (PS 3070).</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_IncomeFromGovernmentBusinessEnterprises" xlink:to="lab_IncomeFromGovernmentBusinessEnterprises_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_InterestAndInvestmentIncome" xlink:label="loc_InterestAndInvestmentIncome"/>
+    <link:label xlink:type="resource" xlink:label="lab_InterestAndInvestmentIncome_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interest and investment income</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_InterestAndInvestmentIncome" xlink:to="lab_InterestAndInvestmentIncome_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_InterestAndInvestmentIncome_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Interest and investment income (PS 3450). GFS 141.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_InterestAndInvestmentIncome" xlink:to="lab_InterestAndInvestmentIncome_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_OtherRevenue" xlink:label="loc_OtherRevenue"/>
+    <link:label xlink:type="resource" xlink:label="lab_OtherRevenue_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Other revenue</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_OtherRevenue" xlink:to="lab_OtherRevenue_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_OtherRevenue_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Revenue not separately presented.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_OtherRevenue" xlink:to="lab_OtherRevenue_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_Revenues" xlink:label="loc_Revenues"/>
+    <link:label xlink:type="resource" xlink:label="lab_Revenues_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Revenues</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Revenues" xlink:to="lab_Revenues_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_Revenues_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Total revenues (PS 1201 / PS 1202).</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Revenues" xlink:to="lab_Revenues_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_HealthExpense" xlink:label="loc_HealthExpense"/>
+    <link:label xlink:type="resource" xlink:label="lab_HealthExpense_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Health expense</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_HealthExpense" xlink:to="lab_HealthExpense_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_HealthExpense_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Expenses for health functions. COFOG 07.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_HealthExpense" xlink:to="lab_HealthExpense_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_EducationExpense" xlink:label="loc_EducationExpense"/>
+    <link:label xlink:type="resource" xlink:label="lab_EducationExpense_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Education expense</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_EducationExpense" xlink:to="lab_EducationExpense_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_EducationExpense_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Expenses for elementary and secondary education. COFOG 09.1-09.2.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_EducationExpense" xlink:to="lab_EducationExpense_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_PostsecondaryEducationExpense" xlink:label="loc_PostsecondaryEducationExpense"/>
+    <link:label xlink:type="resource" xlink:label="lab_PostsecondaryEducationExpense_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Postsecondary education expense</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_PostsecondaryEducationExpense" xlink:to="lab_PostsecondaryEducationExpense_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_PostsecondaryEducationExpense_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Expenses for postsecondary education. COFOG 09.4.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_PostsecondaryEducationExpense" xlink:to="lab_PostsecondaryEducationExpense_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_SocialServicesExpense" xlink:label="loc_SocialServicesExpense"/>
+    <link:label xlink:type="resource" xlink:label="lab_SocialServicesExpense_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Social services expense</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_SocialServicesExpense" xlink:to="lab_SocialServicesExpense_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_SocialServicesExpense_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Expenses for social protection and children&#x27;s services. COFOG 10.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_SocialServicesExpense" xlink:to="lab_SocialServicesExpense_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_JusticeExpense" xlink:label="loc_JusticeExpense"/>
+    <link:label xlink:type="resource" xlink:label="lab_JusticeExpense_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Justice expense</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_JusticeExpense" xlink:to="lab_JusticeExpense_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_JusticeExpense_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Expenses for justice, public order and safety. COFOG 03.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_JusticeExpense" xlink:to="lab_JusticeExpense_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_DebtServicingExpense" xlink:label="loc_DebtServicingExpense"/>
+    <link:label xlink:type="resource" xlink:label="lab_DebtServicingExpense_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Interest and other debt servicing expense</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DebtServicingExpense" xlink:to="lab_DebtServicingExpense_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_DebtServicingExpense_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Interest and other debt servicing charges. COFOG 01.7; GFS 24.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DebtServicingExpense" xlink:to="lab_DebtServicingExpense_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_OtherProgramExpense" xlink:label="loc_OtherProgramExpense"/>
+    <link:label xlink:type="resource" xlink:label="lab_OtherProgramExpense_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Other program expense</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_OtherProgramExpense" xlink:to="lab_OtherProgramExpense_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_OtherProgramExpense_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Program expenses not separately presented.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_OtherProgramExpense" xlink:to="lab_OtherProgramExpense_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_Expenses" xlink:label="loc_Expenses"/>
+    <link:label xlink:type="resource" xlink:label="lab_Expenses_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Expenses</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Expenses" xlink:to="lab_Expenses_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_Expenses_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Total expenses by function (PS 1201 / PS 1202).</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Expenses" xlink:to="lab_Expenses_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_BudgetReserve" xlink:label="loc_BudgetReserve"/>
+    <link:label xlink:type="resource" xlink:label="lab_BudgetReserve_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Budget reserve</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_BudgetReserve" xlink:to="lab_BudgetReserve_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_BudgetReserve_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Contingency reserve included in the budget plan; normally reported only with the Budget scenario.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_BudgetReserve" xlink:to="lab_BudgetReserve_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_AnnualSurplusDeficit" xlink:label="loc_AnnualSurplusDeficit"/>
+    <link:label xlink:type="resource" xlink:label="lab_AnnualSurplusDeficit_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Annual surplus (deficit)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AnnualSurplusDeficit" xlink:to="lab_AnnualSurplusDeficit_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_AnnualSurplusDeficit_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Revenues less expenses for the period (PS 1201). Negative value = deficit.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AnnualSurplusDeficit" xlink:to="lab_AnnualSurplusDeficit_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_AccountsPayableAndAccruedLiabilities" xlink:label="loc_AccountsPayableAndAccruedLiabilities"/>
+    <link:label xlink:type="resource" xlink:label="lab_AccountsPayableAndAccruedLiabilities_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Accounts payable and accrued liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AccountsPayableAndAccruedLiabilities" xlink:to="lab_AccountsPayableAndAccruedLiabilities_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_AccountsPayableAndAccruedLiabilities_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">PS 1201 liability.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AccountsPayableAndAccruedLiabilities" xlink:to="lab_AccountsPayableAndAccruedLiabilities_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_Debt" xlink:label="loc_Debt"/>
+    <link:label xlink:type="resource" xlink:label="lab_Debt_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Debt</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Debt" xlink:to="lab_Debt_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_Debt_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Borrowings, including short-term and long-term debt (PS 3230, PS 3450).</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Debt" xlink:to="lab_Debt_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_OtherLongTermFinancing" xlink:label="loc_OtherLongTermFinancing"/>
+    <link:label xlink:type="resource" xlink:label="lab_OtherLongTermFinancing_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Other long-term financing</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_OtherLongTermFinancing" xlink:to="lab_OtherLongTermFinancing_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_OtherLongTermFinancing_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Long-term financing other than debt, e.g. public-private partnership obligations (PS 3160).</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_OtherLongTermFinancing" xlink:to="lab_OtherLongTermFinancing_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_DeferredRevenueAndCapitalContributions" xlink:label="loc_DeferredRevenueAndCapitalContributions"/>
+    <link:label xlink:type="resource" xlink:label="lab_DeferredRevenueAndCapitalContributions_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Deferred revenue and capital contributions</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DeferredRevenueAndCapitalContributions" xlink:to="lab_DeferredRevenueAndCapitalContributions_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_DeferredRevenueAndCapitalContributions_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Deferred revenue and deferred capital contributions (PS 3100, PS 3410).</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DeferredRevenueAndCapitalContributions" xlink:to="lab_DeferredRevenueAndCapitalContributions_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_PensionAndOtherEmployeeFutureBenefitsLiability" xlink:label="loc_PensionAndOtherEmployeeFutureBenefitsLiability"/>
+    <link:label xlink:type="resource" xlink:label="lab_PensionAndOtherEmployeeFutureBenefitsLiability_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Pension and other employee future benefits liability</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_PensionAndOtherEmployeeFutureBenefitsLiability" xlink:to="lab_PensionAndOtherEmployeeFutureBenefitsLiability_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_PensionAndOtherEmployeeFutureBenefitsLiability_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">PS 3250 / PS 3255.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_PensionAndOtherEmployeeFutureBenefitsLiability" xlink:to="lab_PensionAndOtherEmployeeFutureBenefitsLiability_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_DerivativeLiabilities" xlink:label="loc_DerivativeLiabilities"/>
+    <link:label xlink:type="resource" xlink:label="lab_DerivativeLiabilities_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Derivative liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DerivativeLiabilities" xlink:to="lab_DerivativeLiabilities_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_DerivativeLiabilities_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">PS 3450.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DerivativeLiabilities" xlink:to="lab_DerivativeLiabilities_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_OtherLiabilities" xlink:label="loc_OtherLiabilities"/>
+    <link:label xlink:type="resource" xlink:label="lab_OtherLiabilities_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Other liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_OtherLiabilities" xlink:to="lab_OtherLiabilities_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_OtherLiabilities_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Liabilities not separately presented, including asset retirement obligations (PS 3280) and contaminated sites (PS 3260).</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_OtherLiabilities" xlink:to="lab_OtherLiabilities_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_Liabilities" xlink:label="loc_Liabilities"/>
+    <link:label xlink:type="resource" xlink:label="lab_Liabilities_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Liabilities" xlink:to="lab_Liabilities_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_Liabilities_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Total liabilities.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Liabilities" xlink:to="lab_Liabilities_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_CashAndCashEquivalents" xlink:label="loc_CashAndCashEquivalents"/>
+    <link:label xlink:type="resource" xlink:label="lab_CashAndCashEquivalents_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Cash and cash equivalents</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_CashAndCashEquivalents" xlink:to="lab_CashAndCashEquivalents_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_CashAndCashEquivalents_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">PS 1201.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_CashAndCashEquivalents" xlink:to="lab_CashAndCashEquivalents_doc"/>
+    <link:label xlink:type="resource" xlink:label="lab_CashAndCashEquivalents_start" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en">Cash and cash equivalents, beginning of period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_CashAndCashEquivalents" xlink:to="lab_CashAndCashEquivalents_start"/>
+    <link:label xlink:type="resource" xlink:label="lab_CashAndCashEquivalents_end" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xml:lang="en">Cash and cash equivalents, end of period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_CashAndCashEquivalents" xlink:to="lab_CashAndCashEquivalents_end"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_Cash" xlink:label="loc_Cash"/>
+    <link:label xlink:type="resource" xlink:label="lab_Cash_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Cash</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Cash" xlink:to="lab_Cash_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_Cash_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Cash component of cash and cash equivalents.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Cash" xlink:to="lab_Cash_doc"/>
+    <link:label xlink:type="resource" xlink:label="lab_Cash_end" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xml:lang="en">Cash, end of period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Cash" xlink:to="lab_Cash_end"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_CashEquivalents" xlink:label="loc_CashEquivalents"/>
+    <link:label xlink:type="resource" xlink:label="lab_CashEquivalents_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Cash equivalents</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_CashEquivalents" xlink:to="lab_CashEquivalents_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_CashEquivalents_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Cash-equivalent component of cash and cash equivalents.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_CashEquivalents" xlink:to="lab_CashEquivalents_doc"/>
+    <link:label xlink:type="resource" xlink:label="lab_CashEquivalents_end" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xml:lang="en">Cash equivalents, end of period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_CashEquivalents" xlink:to="lab_CashEquivalents_end"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_PortfolioInvestments" xlink:label="loc_PortfolioInvestments"/>
+    <link:label xlink:type="resource" xlink:label="lab_PortfolioInvestments_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Portfolio investments</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_PortfolioInvestments" xlink:to="lab_PortfolioInvestments_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_PortfolioInvestments_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">PS 3041 / PS 3450.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_PortfolioInvestments" xlink:to="lab_PortfolioInvestments_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_AccountsReceivable" xlink:label="loc_AccountsReceivable"/>
+    <link:label xlink:type="resource" xlink:label="lab_AccountsReceivable_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Accounts receivable</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AccountsReceivable" xlink:to="lab_AccountsReceivable_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_AccountsReceivable_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Including taxes receivable.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AccountsReceivable" xlink:to="lab_AccountsReceivable_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_LoansReceivable" xlink:label="loc_LoansReceivable"/>
+    <link:label xlink:type="resource" xlink:label="lab_LoansReceivable_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Loans receivable</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_LoansReceivable" xlink:to="lab_LoansReceivable_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_LoansReceivable_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">PS 3050.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_LoansReceivable" xlink:to="lab_LoansReceivable_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_DerivativeAssets" xlink:label="loc_DerivativeAssets"/>
+    <link:label xlink:type="resource" xlink:label="lab_DerivativeAssets_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Derivative assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DerivativeAssets" xlink:to="lab_DerivativeAssets_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_DerivativeAssets_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">PS 3450.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DerivativeAssets" xlink:to="lab_DerivativeAssets_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_OtherFinancialAssets" xlink:label="loc_OtherFinancialAssets"/>
+    <link:label xlink:type="resource" xlink:label="lab_OtherFinancialAssets_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Other financial assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_OtherFinancialAssets" xlink:to="lab_OtherFinancialAssets_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_OtherFinancialAssets_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Financial assets not separately presented.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_OtherFinancialAssets" xlink:to="lab_OtherFinancialAssets_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_InvestmentInGovernmentBusinessEnterprises" xlink:label="loc_InvestmentInGovernmentBusinessEnterprises"/>
+    <link:label xlink:type="resource" xlink:label="lab_InvestmentInGovernmentBusinessEnterprises_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Investment in government business enterprises</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_InvestmentInGovernmentBusinessEnterprises" xlink:to="lab_InvestmentInGovernmentBusinessEnterprises_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_InvestmentInGovernmentBusinessEnterprises_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Modified equity method (PS 3070).</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_InvestmentInGovernmentBusinessEnterprises" xlink:to="lab_InvestmentInGovernmentBusinessEnterprises_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_FinancialAssets" xlink:label="loc_FinancialAssets"/>
+    <link:label xlink:type="resource" xlink:label="lab_FinancialAssets_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Financial assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_FinancialAssets" xlink:to="lab_FinancialAssets_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_FinancialAssets_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Total financial assets.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_FinancialAssets" xlink:to="lab_FinancialAssets_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_NetFinancialAssetsLiabilities" xlink:label="loc_NetFinancialAssetsLiabilities"/>
+    <link:label xlink:type="resource" xlink:label="lab_NetFinancialAssetsLiabilities_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Net financial assets (net debt)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_NetFinancialAssetsLiabilities" xlink:to="lab_NetFinancialAssetsLiabilities_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_NetFinancialAssetsLiabilities_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Financial assets less liabilities. A negative value is &#x27;net debt&#x27; under PS 1201 and &#x27;net financial liabilities&#x27; under PS 1202.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_NetFinancialAssetsLiabilities" xlink:to="lab_NetFinancialAssetsLiabilities_doc"/>
+    <link:label xlink:type="resource" xlink:label="lab_NetFinancialAssetsLiabilities_start" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en">Net financial assets (net debt), beginning of period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_NetFinancialAssetsLiabilities" xlink:to="lab_NetFinancialAssetsLiabilities_start"/>
+    <link:label xlink:type="resource" xlink:label="lab_NetFinancialAssetsLiabilities_end" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xml:lang="en">Net financial assets (net debt), end of period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_NetFinancialAssetsLiabilities" xlink:to="lab_NetFinancialAssetsLiabilities_end"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_TangibleCapitalAssets" xlink:label="loc_TangibleCapitalAssets"/>
+    <link:label xlink:type="resource" xlink:label="lab_TangibleCapitalAssets_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Tangible capital assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_TangibleCapitalAssets" xlink:to="lab_TangibleCapitalAssets_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_TangibleCapitalAssets_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">PS 3150.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_TangibleCapitalAssets" xlink:to="lab_TangibleCapitalAssets_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_PrepaidExpensesAndOtherNonFinancialAssets" xlink:label="loc_PrepaidExpensesAndOtherNonFinancialAssets"/>
+    <link:label xlink:type="resource" xlink:label="lab_PrepaidExpensesAndOtherNonFinancialAssets_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Prepaid expenses and other non-financial assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_PrepaidExpensesAndOtherNonFinancialAssets" xlink:to="lab_PrepaidExpensesAndOtherNonFinancialAssets_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_PrepaidExpensesAndOtherNonFinancialAssets_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Including inventories of supplies (PS 3210).</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_PrepaidExpensesAndOtherNonFinancialAssets" xlink:to="lab_PrepaidExpensesAndOtherNonFinancialAssets_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_NonFinancialAssets" xlink:label="loc_NonFinancialAssets"/>
+    <link:label xlink:type="resource" xlink:label="lab_NonFinancialAssets_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Non-financial assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_NonFinancialAssets" xlink:to="lab_NonFinancialAssets_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_NonFinancialAssets_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Total non-financial assets.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_NonFinancialAssets" xlink:to="lab_NonFinancialAssets_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_AccumulatedSurplusDeficit" xlink:label="loc_AccumulatedSurplusDeficit"/>
+    <link:label xlink:type="resource" xlink:label="lab_AccumulatedSurplusDeficit_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Accumulated surplus (deficit)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AccumulatedSurplusDeficit" xlink:to="lab_AccumulatedSurplusDeficit_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_AccumulatedSurplusDeficit_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Net financial assets plus non-financial assets. Negative value = accumulated deficit.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AccumulatedSurplusDeficit" xlink:to="lab_AccumulatedSurplusDeficit_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_AccumulatedOperatingSurplusDeficit" xlink:label="loc_AccumulatedOperatingSurplusDeficit"/>
+    <link:label xlink:type="resource" xlink:label="lab_AccumulatedOperatingSurplusDeficit_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Accumulated operating surplus (deficit)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AccumulatedOperatingSurplusDeficit" xlink:to="lab_AccumulatedOperatingSurplusDeficit_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_AccumulatedOperatingSurplusDeficit_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Accumulated surplus excluding accumulated remeasurement gains and losses.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AccumulatedOperatingSurplusDeficit" xlink:to="lab_AccumulatedOperatingSurplusDeficit_doc"/>
+    <link:label xlink:type="resource" xlink:label="lab_AccumulatedOperatingSurplusDeficit_start" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en">Accumulated operating surplus (deficit), beginning of period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AccumulatedOperatingSurplusDeficit" xlink:to="lab_AccumulatedOperatingSurplusDeficit_start"/>
+    <link:label xlink:type="resource" xlink:label="lab_AccumulatedOperatingSurplusDeficit_end" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xml:lang="en">Accumulated operating surplus (deficit), end of period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AccumulatedOperatingSurplusDeficit" xlink:to="lab_AccumulatedOperatingSurplusDeficit_end"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_AccumulatedRemeasurementGainsLosses" xlink:label="loc_AccumulatedRemeasurementGainsLosses"/>
+    <link:label xlink:type="resource" xlink:label="lab_AccumulatedRemeasurementGainsLosses_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Accumulated remeasurement gains (losses)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AccumulatedRemeasurementGainsLosses" xlink:to="lab_AccumulatedRemeasurementGainsLosses_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_AccumulatedRemeasurementGainsLosses_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">PS 3450.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AccumulatedRemeasurementGainsLosses" xlink:to="lab_AccumulatedRemeasurementGainsLosses_doc"/>
+    <link:label xlink:type="resource" xlink:label="lab_AccumulatedRemeasurementGainsLosses_start" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en">Accumulated remeasurement gains (losses), beginning of period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AccumulatedRemeasurementGainsLosses" xlink:to="lab_AccumulatedRemeasurementGainsLosses_start"/>
+    <link:label xlink:type="resource" xlink:label="lab_AccumulatedRemeasurementGainsLosses_end" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xml:lang="en">Accumulated remeasurement gains (losses), end of period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AccumulatedRemeasurementGainsLosses" xlink:to="lab_AccumulatedRemeasurementGainsLosses_end"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_AcquisitionOfTangibleCapitalAssets" xlink:label="loc_AcquisitionOfTangibleCapitalAssets"/>
+    <link:label xlink:type="resource" xlink:label="lab_AcquisitionOfTangibleCapitalAssets_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Acquisition of tangible capital assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AcquisitionOfTangibleCapitalAssets" xlink:to="lab_AcquisitionOfTangibleCapitalAssets_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_AcquisitionOfTangibleCapitalAssets_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Additions to tangible capital assets (accrual basis).</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AcquisitionOfTangibleCapitalAssets" xlink:to="lab_AcquisitionOfTangibleCapitalAssets_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_AmortizationOfTangibleCapitalAssets" xlink:label="loc_AmortizationOfTangibleCapitalAssets"/>
+    <link:label xlink:type="resource" xlink:label="lab_AmortizationOfTangibleCapitalAssets_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Amortization of tangible capital assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AmortizationOfTangibleCapitalAssets" xlink:to="lab_AmortizationOfTangibleCapitalAssets_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_AmortizationOfTangibleCapitalAssets_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">PS 3150.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AmortizationOfTangibleCapitalAssets" xlink:to="lab_AmortizationOfTangibleCapitalAssets_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_ProceedsOnSaleOfTangibleCapitalAssets" xlink:label="loc_ProceedsOnSaleOfTangibleCapitalAssets"/>
+    <link:label xlink:type="resource" xlink:label="lab_ProceedsOnSaleOfTangibleCapitalAssets_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Proceeds on sale of tangible capital assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_ProceedsOnSaleOfTangibleCapitalAssets" xlink:to="lab_ProceedsOnSaleOfTangibleCapitalAssets_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_LossGainOnSaleOfTangibleCapitalAssets" xlink:label="loc_LossGainOnSaleOfTangibleCapitalAssets"/>
+    <link:label xlink:type="resource" xlink:label="lab_LossGainOnSaleOfTangibleCapitalAssets_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Loss (gain) on sale of tangible capital assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_LossGainOnSaleOfTangibleCapitalAssets" xlink:to="lab_LossGainOnSaleOfTangibleCapitalAssets_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_LossGainOnSaleOfTangibleCapitalAssets_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Positive value = loss.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_LossGainOnSaleOfTangibleCapitalAssets" xlink:to="lab_LossGainOnSaleOfTangibleCapitalAssets_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_IncreaseInTangibleCapitalAssetsFromAssetRetirementObligationRevaluation" xlink:label="loc_IncreaseInTangibleCapitalAssetsFromAssetRetirementObligationRevaluation"/>
+    <link:label xlink:type="resource" xlink:label="lab_IncreaseInTangibleCapitalAssetsFromAssetRetirementObligationRevaluation_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Increase in tangible capital assets cost from asset retirement obligation revaluation</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_IncreaseInTangibleCapitalAssetsFromAssetRetirementObligationRevaluation" xlink:to="lab_IncreaseInTangibleCapitalAssetsFromAssetRetirementObligationRevaluation_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_IncreaseInTangibleCapitalAssetsFromAssetRetirementObligationRevaluation_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">PS 3280.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_IncreaseInTangibleCapitalAssetsFromAssetRetirementObligationRevaluation" xlink:to="lab_IncreaseInTangibleCapitalAssetsFromAssetRetirementObligationRevaluation_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets" xlink:label="loc_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets"/>
+    <link:label xlink:type="resource" xlink:label="lab_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Increase (decrease) in prepaid expenses and other non-financial assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets" xlink:to="lab_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Positive value = increase.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets" xlink:to="lab_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets" xlink:label="loc_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets"/>
+    <link:label xlink:type="resource" xlink:label="lab_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Effect of non-financial asset transactions on net financial assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets" xlink:to="lab_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Subtotal of tangible capital asset and other non-financial asset items in the statement of change in net debt.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets" xlink:to="lab_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement" xlink:label="loc_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement"/>
+    <link:label xlink:type="resource" xlink:label="lab_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Increase (decrease) in net financial assets excluding net remeasurement gains (losses)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement" xlink:to="lab_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Negative value = increase in net debt.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement" xlink:to="lab_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_NetRemeasurementGainsLosses" xlink:label="loc_NetRemeasurementGainsLosses"/>
+    <link:label xlink:type="resource" xlink:label="lab_NetRemeasurementGainsLosses_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Net remeasurement gains (losses)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_NetRemeasurementGainsLosses" xlink:to="lab_NetRemeasurementGainsLosses_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_NetRemeasurementGainsLosses_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">PS 3450 statement of remeasurement gains and losses.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_NetRemeasurementGainsLosses" xlink:to="lab_NetRemeasurementGainsLosses_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_IncreaseDecreaseInNetFinancialAssets" xlink:label="loc_IncreaseDecreaseInNetFinancialAssets"/>
+    <link:label xlink:type="resource" xlink:label="lab_IncreaseDecreaseInNetFinancialAssets_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Increase (decrease) in net financial assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_IncreaseDecreaseInNetFinancialAssets" xlink:to="lab_IncreaseDecreaseInNetFinancialAssets_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_IncreaseDecreaseInNetFinancialAssets_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Negative value = increase in net debt.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_IncreaseDecreaseInNetFinancialAssets" xlink:to="lab_IncreaseDecreaseInNetFinancialAssets_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_UnrealizedGainsLossesForeignExchange" xlink:label="loc_UnrealizedGainsLossesForeignExchange"/>
+    <link:label xlink:type="resource" xlink:label="lab_UnrealizedGainsLossesForeignExchange_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Unrealized gains (losses), foreign exchange</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_UnrealizedGainsLossesForeignExchange" xlink:to="lab_UnrealizedGainsLossesForeignExchange_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_UnrealizedGainsLossesForeignExchange_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">PS 2601.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_UnrealizedGainsLossesForeignExchange" xlink:to="lab_UnrealizedGainsLossesForeignExchange_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_UnrealizedGainsLossesDerivatives" xlink:label="loc_UnrealizedGainsLossesDerivatives"/>
+    <link:label xlink:type="resource" xlink:label="lab_UnrealizedGainsLossesDerivatives_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Unrealized gains (losses), derivatives</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_UnrealizedGainsLossesDerivatives" xlink:to="lab_UnrealizedGainsLossesDerivatives_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_UnrealizedGainsLossesDerivatives_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">PS 3450.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_UnrealizedGainsLossesDerivatives" xlink:to="lab_UnrealizedGainsLossesDerivatives_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_UnrealizedGainsLossesPortfolioInvestments" xlink:label="loc_UnrealizedGainsLossesPortfolioInvestments"/>
+    <link:label xlink:type="resource" xlink:label="lab_UnrealizedGainsLossesPortfolioInvestments_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Unrealized gains (losses), portfolio investments</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_UnrealizedGainsLossesPortfolioInvestments" xlink:to="lab_UnrealizedGainsLossesPortfolioInvestments_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_UnrealizedGainsLossesPortfolioInvestments_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">PS 3450.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_UnrealizedGainsLossesPortfolioInvestments" xlink:to="lab_UnrealizedGainsLossesPortfolioInvestments_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_OtherComprehensiveIncomeFromGovernmentBusinessEnterprises" xlink:label="loc_OtherComprehensiveIncomeFromGovernmentBusinessEnterprises"/>
+    <link:label xlink:type="resource" xlink:label="lab_OtherComprehensiveIncomeFromGovernmentBusinessEnterprises_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Other comprehensive income (loss) from government business enterprises</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_OtherComprehensiveIncomeFromGovernmentBusinessEnterprises" xlink:to="lab_OtherComprehensiveIncomeFromGovernmentBusinessEnterprises_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_OtherComprehensiveIncomeFromGovernmentBusinessEnterprises_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">PS 3070.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_OtherComprehensiveIncomeFromGovernmentBusinessEnterprises" xlink:to="lab_OtherComprehensiveIncomeFromGovernmentBusinessEnterprises_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_RemeasurementReclassifiedToOperationsForeignExchange" xlink:label="loc_RemeasurementReclassifiedToOperationsForeignExchange"/>
+    <link:label xlink:type="resource" xlink:label="lab_RemeasurementReclassifiedToOperationsForeignExchange_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Amounts reclassified to statement of operations, foreign exchange</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RemeasurementReclassifiedToOperationsForeignExchange" xlink:to="lab_RemeasurementReclassifiedToOperationsForeignExchange_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_RemeasurementReclassifiedToOperationsForeignExchange_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Negative value = gains reclassified.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RemeasurementReclassifiedToOperationsForeignExchange" xlink:to="lab_RemeasurementReclassifiedToOperationsForeignExchange_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_RemeasurementReclassifiedToOperationsDerivatives" xlink:label="loc_RemeasurementReclassifiedToOperationsDerivatives"/>
+    <link:label xlink:type="resource" xlink:label="lab_RemeasurementReclassifiedToOperationsDerivatives_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Amounts reclassified to statement of operations, derivatives</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RemeasurementReclassifiedToOperationsDerivatives" xlink:to="lab_RemeasurementReclassifiedToOperationsDerivatives_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_RemeasurementReclassifiedToOperationsPortfolioInvestments" xlink:label="loc_RemeasurementReclassifiedToOperationsPortfolioInvestments"/>
+    <link:label xlink:type="resource" xlink:label="lab_RemeasurementReclassifiedToOperationsPortfolioInvestments_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Amounts reclassified to statement of operations, portfolio investments</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RemeasurementReclassifiedToOperationsPortfolioInvestments" xlink:to="lab_RemeasurementReclassifiedToOperationsPortfolioInvestments_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_AdjustmentForContributedTangibleCapitalAssets" xlink:label="loc_AdjustmentForContributedTangibleCapitalAssets"/>
+    <link:label xlink:type="resource" xlink:label="lab_AdjustmentForContributedTangibleCapitalAssets_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Adjustment for contributed tangible capital assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AdjustmentForContributedTangibleCapitalAssets" xlink:to="lab_AdjustmentForContributedTangibleCapitalAssets_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_AdjustmentForContributedTangibleCapitalAssets_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Non-cash item.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AdjustmentForContributedTangibleCapitalAssets" xlink:to="lab_AdjustmentForContributedTangibleCapitalAssets_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_AdjustmentForInYearRemeasurementGainsLossesExcludingGovernmentBusinessEnterprises" xlink:label="loc_AdjustmentForInYearRemeasurementGainsLossesExcludingGovernmentBusinessEnterprises"/>
+    <link:label xlink:type="resource" xlink:label="lab_AdjustmentForInYearRemeasurementGainsLossesExcludingGovernmentBusinessEnterprises_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Adjustment for in-year remeasurement gains (losses) of entities other than government business enterprises</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AdjustmentForInYearRemeasurementGainsLossesExcludingGovernmentBusinessEnterprises" xlink:to="lab_AdjustmentForInYearRemeasurementGainsLossesExcludingGovernmentBusinessEnterprises_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_AdjustmentForInYearRemeasurementGainsLossesExcludingGovernmentBusinessEnterprises_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Non-cash item.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AdjustmentForInYearRemeasurementGainsLossesExcludingGovernmentBusinessEnterprises" xlink:to="lab_AdjustmentForInYearRemeasurementGainsLossesExcludingGovernmentBusinessEnterprises_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_AdjustmentForDeferredLossesFromGovernmentBusinessEnterprises" xlink:label="loc_AdjustmentForDeferredLossesFromGovernmentBusinessEnterprises"/>
+    <link:label xlink:type="resource" xlink:label="lab_AdjustmentForDeferredLossesFromGovernmentBusinessEnterprises_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Adjustment for deferred losses from government business enterprises</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AdjustmentForDeferredLossesFromGovernmentBusinessEnterprises" xlink:to="lab_AdjustmentForDeferredLossesFromGovernmentBusinessEnterprises_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_AdjustmentForDeferredLossesFromGovernmentBusinessEnterprises_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Non-cash item.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AdjustmentForDeferredLossesFromGovernmentBusinessEnterprises" xlink:to="lab_AdjustmentForDeferredLossesFromGovernmentBusinessEnterprises_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_AdjustmentForDecreaseIncreaseInAccountsReceivable" xlink:label="loc_AdjustmentForDecreaseIncreaseInAccountsReceivable"/>
+    <link:label xlink:type="resource" xlink:label="lab_AdjustmentForDecreaseIncreaseInAccountsReceivable_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Adjustment for decrease (increase) in accounts receivable</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AdjustmentForDecreaseIncreaseInAccountsReceivable" xlink:to="lab_AdjustmentForDecreaseIncreaseInAccountsReceivable_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_AdjustmentForDecreaseIncreaseInAccountsReceivable_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Positive value = decrease (cash inflow).</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AdjustmentForDecreaseIncreaseInAccountsReceivable" xlink:to="lab_AdjustmentForDecreaseIncreaseInAccountsReceivable_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_AdjustmentForDecreaseIncreaseInLoansReceivable" xlink:label="loc_AdjustmentForDecreaseIncreaseInLoansReceivable"/>
+    <link:label xlink:type="resource" xlink:label="lab_AdjustmentForDecreaseIncreaseInLoansReceivable_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Adjustment for decrease (increase) in loans receivable</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AdjustmentForDecreaseIncreaseInLoansReceivable" xlink:to="lab_AdjustmentForDecreaseIncreaseInLoansReceivable_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_AdjustmentForDecreaseIncreaseInLoansReceivable_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Positive value = decrease.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AdjustmentForDecreaseIncreaseInLoansReceivable" xlink:to="lab_AdjustmentForDecreaseIncreaseInLoansReceivable_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_AdjustmentForIncreaseDecreaseInAccountsPayableAndAccruedLiabilities" xlink:label="loc_AdjustmentForIncreaseDecreaseInAccountsPayableAndAccruedLiabilities"/>
+    <link:label xlink:type="resource" xlink:label="lab_AdjustmentForIncreaseDecreaseInAccountsPayableAndAccruedLiabilities_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Adjustment for increase (decrease) in accounts payable and accrued liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AdjustmentForIncreaseDecreaseInAccountsPayableAndAccruedLiabilities" xlink:to="lab_AdjustmentForIncreaseDecreaseInAccountsPayableAndAccruedLiabilities_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_AdjustmentForIncreaseDecreaseInAccountsPayableAndAccruedLiabilities_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Positive value = increase.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AdjustmentForIncreaseDecreaseInAccountsPayableAndAccruedLiabilities" xlink:to="lab_AdjustmentForIncreaseDecreaseInAccountsPayableAndAccruedLiabilities_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_AdjustmentForIncreaseDecreaseInPensionAndOtherEmployeeFutureBenefitsLiability" xlink:label="loc_AdjustmentForIncreaseDecreaseInPensionAndOtherEmployeeFutureBenefitsLiability"/>
+    <link:label xlink:type="resource" xlink:label="lab_AdjustmentForIncreaseDecreaseInPensionAndOtherEmployeeFutureBenefitsLiability_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Adjustment for increase (decrease) in pension and other employee future benefits liability</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AdjustmentForIncreaseDecreaseInPensionAndOtherEmployeeFutureBenefitsLiability" xlink:to="lab_AdjustmentForIncreaseDecreaseInPensionAndOtherEmployeeFutureBenefitsLiability_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_AdjustmentForIncreaseDecreaseInOtherLiabilities" xlink:label="loc_AdjustmentForIncreaseDecreaseInOtherLiabilities"/>
+    <link:label xlink:type="resource" xlink:label="lab_AdjustmentForIncreaseDecreaseInOtherLiabilities_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Adjustment for increase (decrease) in other liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AdjustmentForIncreaseDecreaseInOtherLiabilities" xlink:to="lab_AdjustmentForIncreaseDecreaseInOtherLiabilities_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_AdjustmentForIncreaseDecreaseInDeferredRevenueAndCapitalContributions" xlink:label="loc_AdjustmentForIncreaseDecreaseInDeferredRevenueAndCapitalContributions"/>
+    <link:label xlink:type="resource" xlink:label="lab_AdjustmentForIncreaseDecreaseInDeferredRevenueAndCapitalContributions_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Adjustment for increase (decrease) in deferred revenue and capital contributions</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AdjustmentForIncreaseDecreaseInDeferredRevenueAndCapitalContributions" xlink:to="lab_AdjustmentForIncreaseDecreaseInDeferredRevenueAndCapitalContributions_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_RemittancesFromGovernmentBusinessEnterprises" xlink:label="loc_RemittancesFromGovernmentBusinessEnterprises"/>
+    <link:label xlink:type="resource" xlink:label="lab_RemittancesFromGovernmentBusinessEnterprises_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Remittances from government business enterprises</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RemittancesFromGovernmentBusinessEnterprises" xlink:to="lab_RemittancesFromGovernmentBusinessEnterprises_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_RemittancesFromGovernmentBusinessEnterprises_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Cash dividends and remittances received.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RemittancesFromGovernmentBusinessEnterprises" xlink:to="lab_RemittancesFromGovernmentBusinessEnterprises_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_AdjustmentForDecreaseIncreaseInOtherFinancialAssets" xlink:label="loc_AdjustmentForDecreaseIncreaseInOtherFinancialAssets"/>
+    <link:label xlink:type="resource" xlink:label="lab_AdjustmentForDecreaseIncreaseInOtherFinancialAssets_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Adjustment for decrease (increase) in other financial assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AdjustmentForDecreaseIncreaseInOtherFinancialAssets" xlink:to="lab_AdjustmentForDecreaseIncreaseInOtherFinancialAssets_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_CashProvidedByAppliedToOperatingTransactions" xlink:label="loc_CashProvidedByAppliedToOperatingTransactions"/>
+    <link:label xlink:type="resource" xlink:label="lab_CashProvidedByAppliedToOperatingTransactions_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Cash provided by (applied to) operating transactions</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_CashProvidedByAppliedToOperatingTransactions" xlink:to="lab_CashProvidedByAppliedToOperatingTransactions_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_CashProvidedByAppliedToOperatingTransactions_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">PS 1201.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_CashProvidedByAppliedToOperatingTransactions" xlink:to="lab_CashProvidedByAppliedToOperatingTransactions_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_PaymentsToAcquireTangibleCapitalAssets" xlink:label="loc_PaymentsToAcquireTangibleCapitalAssets"/>
+    <link:label xlink:type="resource" xlink:label="lab_PaymentsToAcquireTangibleCapitalAssets_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payments to acquire tangible capital assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_PaymentsToAcquireTangibleCapitalAssets" xlink:to="lab_PaymentsToAcquireTangibleCapitalAssets_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_PaymentsToAcquireTangibleCapitalAssets_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Cash basis.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_PaymentsToAcquireTangibleCapitalAssets" xlink:to="lab_PaymentsToAcquireTangibleCapitalAssets_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_CashProvidedByAppliedToCapitalTransactions" xlink:label="loc_CashProvidedByAppliedToCapitalTransactions"/>
+    <link:label xlink:type="resource" xlink:label="lab_CashProvidedByAppliedToCapitalTransactions_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Cash provided by (applied to) capital transactions</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_CashProvidedByAppliedToCapitalTransactions" xlink:to="lab_CashProvidedByAppliedToCapitalTransactions_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_CashProvidedByAppliedToCapitalTransactions_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">PS 1201.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_CashProvidedByAppliedToCapitalTransactions" xlink:to="lab_CashProvidedByAppliedToCapitalTransactions_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_PaymentsToPurchasePortfolioInvestments" xlink:label="loc_PaymentsToPurchasePortfolioInvestments"/>
+    <link:label xlink:type="resource" xlink:label="lab_PaymentsToPurchasePortfolioInvestments_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Payments to purchase portfolio investments</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_PaymentsToPurchasePortfolioInvestments" xlink:to="lab_PaymentsToPurchasePortfolioInvestments_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_ProceedsFromPortfolioInvestmentsRetired" xlink:label="loc_ProceedsFromPortfolioInvestmentsRetired"/>
+    <link:label xlink:type="resource" xlink:label="lab_ProceedsFromPortfolioInvestmentsRetired_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Proceeds from portfolio investments retired</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_ProceedsFromPortfolioInvestmentsRetired" xlink:to="lab_ProceedsFromPortfolioInvestmentsRetired_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_CapitalContributionsToGovernmentBusinessEnterprises" xlink:label="loc_CapitalContributionsToGovernmentBusinessEnterprises"/>
+    <link:label xlink:type="resource" xlink:label="lab_CapitalContributionsToGovernmentBusinessEnterprises_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Capital contributions to government business enterprises</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_CapitalContributionsToGovernmentBusinessEnterprises" xlink:to="lab_CapitalContributionsToGovernmentBusinessEnterprises_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_CashProvidedByAppliedToInvestingTransactions" xlink:label="loc_CashProvidedByAppliedToInvestingTransactions"/>
+    <link:label xlink:type="resource" xlink:label="lab_CashProvidedByAppliedToInvestingTransactions_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Cash provided by (applied to) investing transactions</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_CashProvidedByAppliedToInvestingTransactions" xlink:to="lab_CashProvidedByAppliedToInvestingTransactions_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_CashProvidedByAppliedToInvestingTransactions_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">PS 1201.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_CashProvidedByAppliedToInvestingTransactions" xlink:to="lab_CashProvidedByAppliedToInvestingTransactions_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_ProceedsFromLongTermDebtIssued" xlink:label="loc_ProceedsFromLongTermDebtIssued"/>
+    <link:label xlink:type="resource" xlink:label="lab_ProceedsFromLongTermDebtIssued_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Proceeds from long-term debt issued</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_ProceedsFromLongTermDebtIssued" xlink:to="lab_ProceedsFromLongTermDebtIssued_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_RepaymentsOfLongTermDebt" xlink:label="loc_RepaymentsOfLongTermDebt"/>
+    <link:label xlink:type="resource" xlink:label="lab_RepaymentsOfLongTermDebt_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Repayments of long-term debt</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_RepaymentsOfLongTermDebt" xlink:to="lab_RepaymentsOfLongTermDebt_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_DecreaseIncreaseInUnamortizedDebtDiscountsPremiumsAndCommissions" xlink:label="loc_DecreaseIncreaseInUnamortizedDebtDiscountsPremiumsAndCommissions"/>
+    <link:label xlink:type="resource" xlink:label="lab_DecreaseIncreaseInUnamortizedDebtDiscountsPremiumsAndCommissions_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Decrease (increase) in unamortized debt discounts, premiums and commissions</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DecreaseIncreaseInUnamortizedDebtDiscountsPremiumsAndCommissions" xlink:to="lab_DecreaseIncreaseInUnamortizedDebtDiscountsPremiumsAndCommissions_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_IncreaseDecreaseInShortTermDebt" xlink:label="loc_IncreaseDecreaseInShortTermDebt"/>
+    <link:label xlink:type="resource" xlink:label="lab_IncreaseDecreaseInShortTermDebt_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Increase (decrease) in short-term debt</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_IncreaseDecreaseInShortTermDebt" xlink:to="lab_IncreaseDecreaseInShortTermDebt_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_IncreaseDecreaseInOtherLongTermFinancing" xlink:label="loc_IncreaseDecreaseInOtherLongTermFinancing"/>
+    <link:label xlink:type="resource" xlink:label="lab_IncreaseDecreaseInOtherLongTermFinancing_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Increase (decrease) in other long-term financing</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_IncreaseDecreaseInOtherLongTermFinancing" xlink:to="lab_IncreaseDecreaseInOtherLongTermFinancing_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_IncreaseDecreaseInDerivativeLiabilities" xlink:label="loc_IncreaseDecreaseInDerivativeLiabilities"/>
+    <link:label xlink:type="resource" xlink:label="lab_IncreaseDecreaseInDerivativeLiabilities_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Increase (decrease) in derivative liabilities</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_IncreaseDecreaseInDerivativeLiabilities" xlink:to="lab_IncreaseDecreaseInDerivativeLiabilities_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_DecreaseIncreaseInDerivativeAssets" xlink:label="loc_DecreaseIncreaseInDerivativeAssets"/>
+    <link:label xlink:type="resource" xlink:label="lab_DecreaseIncreaseInDerivativeAssets_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Decrease (increase) in derivative assets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_DecreaseIncreaseInDerivativeAssets" xlink:to="lab_DecreaseIncreaseInDerivativeAssets_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_CashProvidedByAppliedToFinancingTransactions" xlink:label="loc_CashProvidedByAppliedToFinancingTransactions"/>
+    <link:label xlink:type="resource" xlink:label="lab_CashProvidedByAppliedToFinancingTransactions_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Cash provided by (applied to) financing transactions</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_CashProvidedByAppliedToFinancingTransactions" xlink:to="lab_CashProvidedByAppliedToFinancingTransactions_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_CashProvidedByAppliedToFinancingTransactions_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">PS 1201.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_CashProvidedByAppliedToFinancingTransactions" xlink:to="lab_CashProvidedByAppliedToFinancingTransactions_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_IncreaseDecreaseInCashAndCashEquivalents" xlink:label="loc_IncreaseDecreaseInCashAndCashEquivalents"/>
+    <link:label xlink:type="resource" xlink:label="lab_IncreaseDecreaseInCashAndCashEquivalents_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Increase (decrease) in cash and cash equivalents</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_IncreaseDecreaseInCashAndCashEquivalents" xlink:to="lab_IncreaseDecreaseInCashAndCashEquivalents_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_StatementOfOperationsAbstract" xlink:label="loc_StatementOfOperationsAbstract"/>
+    <link:label xlink:type="resource" xlink:label="lab_StatementOfOperationsAbstract_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Statement of Operations [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_StatementOfOperationsAbstract" xlink:to="lab_StatementOfOperationsAbstract_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_StatementOfFinancialPositionAbstract" xlink:label="loc_StatementOfFinancialPositionAbstract"/>
+    <link:label xlink:type="resource" xlink:label="lab_StatementOfFinancialPositionAbstract_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Statement of Financial Position [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_StatementOfFinancialPositionAbstract" xlink:to="lab_StatementOfFinancialPositionAbstract_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_AccumulatedSurplusDeficitComponentsAbstract" xlink:label="loc_AccumulatedSurplusDeficitComponentsAbstract"/>
+    <link:label xlink:type="resource" xlink:label="lab_AccumulatedSurplusDeficitComponentsAbstract_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Components of Accumulated Surplus (Deficit) [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_AccumulatedSurplusDeficitComponentsAbstract" xlink:to="lab_AccumulatedSurplusDeficitComponentsAbstract_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_StatementOfChangeInNetDebtAbstract" xlink:label="loc_StatementOfChangeInNetDebtAbstract"/>
+    <link:label xlink:type="resource" xlink:label="lab_StatementOfChangeInNetDebtAbstract_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Statement of Change in Net Debt (Net Financial Assets) [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_StatementOfChangeInNetDebtAbstract" xlink:to="lab_StatementOfChangeInNetDebtAbstract_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_StatementOfChangeInAccumulatedOperatingSurplusDeficitAbstract" xlink:label="loc_StatementOfChangeInAccumulatedOperatingSurplusDeficitAbstract"/>
+    <link:label xlink:type="resource" xlink:label="lab_StatementOfChangeInAccumulatedOperatingSurplusDeficitAbstract_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Statement of Change in Accumulated Operating Surplus (Deficit) [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_StatementOfChangeInAccumulatedOperatingSurplusDeficitAbstract" xlink:to="lab_StatementOfChangeInAccumulatedOperatingSurplusDeficitAbstract_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_StatementOfRemeasurementGainsAndLossesAbstract" xlink:label="loc_StatementOfRemeasurementGainsAndLossesAbstract"/>
+    <link:label xlink:type="resource" xlink:label="lab_StatementOfRemeasurementGainsAndLossesAbstract_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Statement of Remeasurement Gains and Losses [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_StatementOfRemeasurementGainsAndLossesAbstract" xlink:to="lab_StatementOfRemeasurementGainsAndLossesAbstract_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_StatementOfCashFlowAbstract" xlink:label="loc_StatementOfCashFlowAbstract"/>
+    <link:label xlink:type="resource" xlink:label="lab_StatementOfCashFlowAbstract_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Statement of Cash Flow [Abstract]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_StatementOfCashFlowAbstract" xlink:to="lab_StatementOfCashFlowAbstract_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_BudgetComparisonTable" xlink:label="loc_BudgetComparisonTable"/>
+    <link:label xlink:type="resource" xlink:label="lab_BudgetComparisonTable_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Budget comparison [Table]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_BudgetComparisonTable" xlink:to="lab_BudgetComparisonTable_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_StatementScenarioAxis" xlink:label="loc_StatementScenarioAxis"/>
+    <link:label xlink:type="resource" xlink:label="lab_StatementScenarioAxis_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Statement scenario [Axis]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_StatementScenarioAxis" xlink:to="lab_StatementScenarioAxis_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_StatementScenarioAxis_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Distinguishes budget amounts (PS 1201 requires budget comparison) from actual results.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_StatementScenarioAxis" xlink:to="lab_StatementScenarioAxis_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_BudgetComparisonLineItems" xlink:label="loc_BudgetComparisonLineItems"/>
+    <link:label xlink:type="resource" xlink:label="lab_BudgetComparisonLineItems_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Budget comparison [Line Items]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_BudgetComparisonLineItems" xlink:to="lab_BudgetComparisonLineItems_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_ScenarioDomain" xlink:label="loc_ScenarioDomain"/>
+    <link:label xlink:type="resource" xlink:label="lab_ScenarioDomain_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Scenario [Domain]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_ScenarioDomain" xlink:to="lab_ScenarioDomain_label"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_ActualMember" xlink:label="loc_ActualMember"/>
+    <link:label xlink:type="resource" xlink:label="lab_ActualMember_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Actual [Member]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_ActualMember" xlink:to="lab_ActualMember_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_ActualMember_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Default member: actual results.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_ActualMember" xlink:to="lab_ActualMember_doc"/>
+    <link:loc xlink:type="locator" xlink:href="psas-2026.xsd#psas_BudgetMember" xlink:label="loc_BudgetMember"/>
+    <link:label xlink:type="resource" xlink:label="lab_BudgetMember_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Budget [Member]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_BudgetMember" xlink:to="lab_BudgetMember_label"/>
+    <link:label xlink:type="resource" xlink:label="lab_BudgetMember_doc" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en">Amounts from the original budget presented for comparison.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_BudgetMember" xlink:to="lab_BudgetMember_doc"/>
+  </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:roleRef roleURI="http://xbrl.example.org/ca-psas/2026/role/StatementOfOperations" xlink:type="simple" xlink:href="../taxonomy/psas-2026.xsd#StatementOfOperations"/>
+  <link:roleRef roleURI="http://xbrl.example.org/ca-psas/2026/role/StatementOfFinancialPosition" xlink:type="simple" xlink:href="../taxonomy/psas-2026.xsd#StatementOfFinancialPosition"/>
+  <link:roleRef roleURI="http://xbrl.example.org/ca-psas/2026/role/AccumulatedSurplusDeficitComponents" xlink:type="simple" xlink:href="../taxonomy/psas-2026.xsd#AccumulatedSurplusDeficitComponents"/>
+  <link:roleRef roleURI="http://xbrl.example.org/ca-psas/2026/role/StatementOfChangeInNetDebt" xlink:type="simple" xlink:href="../taxonomy/psas-2026.xsd#StatementOfChangeInNetDebt"/>
+  <link:roleRef roleURI="http://xbrl.example.org/ca-psas/2026/role/StatementOfChangeInAccumulatedOperatingSurplusDeficit" xlink:type="simple" xlink:href="../taxonomy/psas-2026.xsd#StatementOfChangeInAccumulatedOperatingSurplusDeficit"/>
+  <link:roleRef roleURI="http://xbrl.example.org/ca-psas/2026/role/StatementOfRemeasurementGainsAndLosses" xlink:type="simple" xlink:href="../taxonomy/psas-2026.xsd#StatementOfRemeasurementGainsAndLosses"/>
+  <link:roleRef roleURI="http://xbrl.example.org/ca-psas/2026/role/StatementOfCashFlow" xlink:type="simple" xlink:href="../taxonomy/psas-2026.xsd#StatementOfCashFlow"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://xbrl.example.org/ca-psas/2026/role/StatementOfOperations">
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_StatementOfOperationsAbstract" xlink:label="psas_StatementOfOperationsAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PersonalIncomeTaxRevenue" xlink:label="psas_PersonalIncomeTaxRevenue"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_PersonalIncomeTaxRevenue" order="1"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_SalesTaxRevenue" xlink:label="psas_SalesTaxRevenue"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_SalesTaxRevenue" order="2"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_CorporateIncomeTaxRevenue" xlink:label="psas_CorporateIncomeTaxRevenue"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_CorporateIncomeTaxRevenue" order="3"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PayrollTaxRevenue" xlink:label="psas_PayrollTaxRevenue"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_PayrollTaxRevenue" order="4"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PropertyTaxRevenue" xlink:label="psas_PropertyTaxRevenue"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_PropertyTaxRevenue" order="5"/>
+    <link:loc xlink:type="locator" xlink:href="on-2026.xsd#on_OntarioHealthPremiumRevenue" xlink:label="on_OntarioHealthPremiumRevenue"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="on_OntarioHealthPremiumRevenue" order="6"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_FuelTaxRevenue" xlink:label="psas_FuelTaxRevenue"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_FuelTaxRevenue" order="7"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_OtherTaxRevenue" xlink:label="psas_OtherTaxRevenue"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_OtherTaxRevenue" order="8"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_TaxRevenue" xlink:label="psas_TaxRevenue"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_TaxRevenue" order="9"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_TransfersFromFederalGovernmentRevenue" xlink:label="psas_TransfersFromFederalGovernmentRevenue"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_TransfersFromFederalGovernmentRevenue" order="10"/>
+    <link:loc xlink:type="locator" xlink:href="on-2026.xsd#on_FeesDonationsAndOtherRevenuesFromBroaderPublicSectorOrganizations" xlink:label="on_FeesDonationsAndOtherRevenuesFromBroaderPublicSectorOrganizations"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="on_FeesDonationsAndOtherRevenuesFromBroaderPublicSectorOrganizations" order="11"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncomeFromGovernmentBusinessEnterprises" xlink:label="psas_IncomeFromGovernmentBusinessEnterprises"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_IncomeFromGovernmentBusinessEnterprises" order="12"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_InterestAndInvestmentIncome" xlink:label="psas_InterestAndInvestmentIncome"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_InterestAndInvestmentIncome" order="13"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_OtherRevenue" xlink:label="psas_OtherRevenue"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_OtherRevenue" order="14"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_Revenues" xlink:label="psas_Revenues"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_Revenues" order="15"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_HealthExpense" xlink:label="psas_HealthExpense"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_HealthExpense" order="16"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_EducationExpense" xlink:label="psas_EducationExpense"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_EducationExpense" order="17"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_SocialServicesExpense" xlink:label="psas_SocialServicesExpense"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_SocialServicesExpense" order="18"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_DebtServicingExpense" xlink:label="psas_DebtServicingExpense"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_DebtServicingExpense" order="19"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PostsecondaryEducationExpense" xlink:label="psas_PostsecondaryEducationExpense"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_PostsecondaryEducationExpense" order="20"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_JusticeExpense" xlink:label="psas_JusticeExpense"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_JusticeExpense" order="21"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_OtherProgramExpense" xlink:label="psas_OtherProgramExpense"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_OtherProgramExpense" order="22"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_Expenses" xlink:label="psas_Expenses"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_Expenses" order="23"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_BudgetReserve" xlink:label="psas_BudgetReserve"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_BudgetReserve" order="24"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AnnualSurplusDeficit" xlink:label="psas_AnnualSurplusDeficit"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfOperationsAbstract" xlink:to="psas_AnnualSurplusDeficit" order="25"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://xbrl.example.org/ca-psas/2026/role/StatementOfFinancialPosition">
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_StatementOfFinancialPositionAbstract" xlink:label="psas_StatementOfFinancialPositionAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AccountsPayableAndAccruedLiabilities" xlink:label="psas_AccountsPayableAndAccruedLiabilities"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfFinancialPositionAbstract" xlink:to="psas_AccountsPayableAndAccruedLiabilities" order="1"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_Debt" xlink:label="psas_Debt"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfFinancialPositionAbstract" xlink:to="psas_Debt" order="2"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_OtherLongTermFinancing" xlink:label="psas_OtherLongTermFinancing"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfFinancialPositionAbstract" xlink:to="psas_OtherLongTermFinancing" order="3"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_DeferredRevenueAndCapitalContributions" xlink:label="psas_DeferredRevenueAndCapitalContributions"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfFinancialPositionAbstract" xlink:to="psas_DeferredRevenueAndCapitalContributions" order="4"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PensionAndOtherEmployeeFutureBenefitsLiability" xlink:label="psas_PensionAndOtherEmployeeFutureBenefitsLiability"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfFinancialPositionAbstract" xlink:to="psas_PensionAndOtherEmployeeFutureBenefitsLiability" order="5"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_DerivativeLiabilities" xlink:label="psas_DerivativeLiabilities"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfFinancialPositionAbstract" xlink:to="psas_DerivativeLiabilities" order="6"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_OtherLiabilities" xlink:label="psas_OtherLiabilities"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfFinancialPositionAbstract" xlink:to="psas_OtherLiabilities" order="7"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_Liabilities" xlink:label="psas_Liabilities"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfFinancialPositionAbstract" xlink:to="psas_Liabilities" order="8"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_CashAndCashEquivalents" xlink:label="psas_CashAndCashEquivalents"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfFinancialPositionAbstract" xlink:to="psas_CashAndCashEquivalents" order="9"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PortfolioInvestments" xlink:label="psas_PortfolioInvestments"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfFinancialPositionAbstract" xlink:to="psas_PortfolioInvestments" order="10"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AccountsReceivable" xlink:label="psas_AccountsReceivable"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfFinancialPositionAbstract" xlink:to="psas_AccountsReceivable" order="11"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_LoansReceivable" xlink:label="psas_LoansReceivable"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfFinancialPositionAbstract" xlink:to="psas_LoansReceivable" order="12"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_DerivativeAssets" xlink:label="psas_DerivativeAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfFinancialPositionAbstract" xlink:to="psas_DerivativeAssets" order="13"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_OtherFinancialAssets" xlink:label="psas_OtherFinancialAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfFinancialPositionAbstract" xlink:to="psas_OtherFinancialAssets" order="14"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_InvestmentInGovernmentBusinessEnterprises" xlink:label="psas_InvestmentInGovernmentBusinessEnterprises"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfFinancialPositionAbstract" xlink:to="psas_InvestmentInGovernmentBusinessEnterprises" order="15"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_FinancialAssets" xlink:label="psas_FinancialAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfFinancialPositionAbstract" xlink:to="psas_FinancialAssets" order="16"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_NetFinancialAssetsLiabilities" xlink:label="psas_NetFinancialAssetsLiabilities"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfFinancialPositionAbstract" xlink:to="psas_NetFinancialAssetsLiabilities" order="17"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_TangibleCapitalAssets" xlink:label="psas_TangibleCapitalAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfFinancialPositionAbstract" xlink:to="psas_TangibleCapitalAssets" order="18"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PrepaidExpensesAndOtherNonFinancialAssets" xlink:label="psas_PrepaidExpensesAndOtherNonFinancialAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfFinancialPositionAbstract" xlink:to="psas_PrepaidExpensesAndOtherNonFinancialAssets" order="19"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_NonFinancialAssets" xlink:label="psas_NonFinancialAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfFinancialPositionAbstract" xlink:to="psas_NonFinancialAssets" order="20"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AccumulatedSurplusDeficit" xlink:label="psas_AccumulatedSurplusDeficit"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfFinancialPositionAbstract" xlink:to="psas_AccumulatedSurplusDeficit" order="21"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://xbrl.example.org/ca-psas/2026/role/AccumulatedSurplusDeficitComponents">
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AccumulatedSurplusDeficitComponentsAbstract" xlink:label="psas_AccumulatedSurplusDeficitComponentsAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AccumulatedOperatingSurplusDeficit" xlink:label="psas_AccumulatedOperatingSurplusDeficit"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_AccumulatedSurplusDeficitComponentsAbstract" xlink:to="psas_AccumulatedOperatingSurplusDeficit" order="1"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AccumulatedRemeasurementGainsLosses" xlink:label="psas_AccumulatedRemeasurementGainsLosses"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_AccumulatedSurplusDeficitComponentsAbstract" xlink:to="psas_AccumulatedRemeasurementGainsLosses" order="2"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AccumulatedSurplusDeficit" xlink:label="psas_AccumulatedSurplusDeficit"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_AccumulatedSurplusDeficitComponentsAbstract" xlink:to="psas_AccumulatedSurplusDeficit" order="3"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://xbrl.example.org/ca-psas/2026/role/StatementOfChangeInNetDebt">
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_StatementOfChangeInNetDebtAbstract" xlink:label="psas_StatementOfChangeInNetDebtAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AnnualSurplusDeficit" xlink:label="psas_AnnualSurplusDeficit"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfChangeInNetDebtAbstract" xlink:to="psas_AnnualSurplusDeficit" order="1"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AcquisitionOfTangibleCapitalAssets" xlink:label="psas_AcquisitionOfTangibleCapitalAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfChangeInNetDebtAbstract" xlink:to="psas_AcquisitionOfTangibleCapitalAssets" order="2"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AmortizationOfTangibleCapitalAssets" xlink:label="psas_AmortizationOfTangibleCapitalAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfChangeInNetDebtAbstract" xlink:to="psas_AmortizationOfTangibleCapitalAssets" order="3"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_ProceedsOnSaleOfTangibleCapitalAssets" xlink:label="psas_ProceedsOnSaleOfTangibleCapitalAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfChangeInNetDebtAbstract" xlink:to="psas_ProceedsOnSaleOfTangibleCapitalAssets" order="4"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_LossGainOnSaleOfTangibleCapitalAssets" xlink:label="psas_LossGainOnSaleOfTangibleCapitalAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfChangeInNetDebtAbstract" xlink:to="psas_LossGainOnSaleOfTangibleCapitalAssets" order="5"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseInTangibleCapitalAssetsFromAssetRetirementObligationRevaluation" xlink:label="psas_IncreaseInTangibleCapitalAssetsFromAssetRetirementObligationRevaluation"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfChangeInNetDebtAbstract" xlink:to="psas_IncreaseInTangibleCapitalAssetsFromAssetRetirementObligationRevaluation" order="6"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets" xlink:label="psas_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfChangeInNetDebtAbstract" xlink:to="psas_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets" order="7"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets" xlink:label="psas_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfChangeInNetDebtAbstract" xlink:to="psas_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets" order="8"/>
+    <link:loc xlink:type="locator" xlink:href="on-2026.xsd#on_ContributionDeficitOntarioPowerGeneration" xlink:label="on_ContributionDeficitOntarioPowerGeneration"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfChangeInNetDebtAbstract" xlink:to="on_ContributionDeficitOntarioPowerGeneration" order="9"/>
+    <link:loc xlink:type="locator" xlink:href="on-2026.xsd#on_EquityImpactIfrsAdjustmentOntarioPowerGeneration" xlink:label="on_EquityImpactIfrsAdjustmentOntarioPowerGeneration"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfChangeInNetDebtAbstract" xlink:to="on_EquityImpactIfrsAdjustmentOntarioPowerGeneration" order="10"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement" xlink:label="psas_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfChangeInNetDebtAbstract" xlink:to="psas_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement" order="11"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_NetRemeasurementGainsLosses" xlink:label="psas_NetRemeasurementGainsLosses"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfChangeInNetDebtAbstract" xlink:to="psas_NetRemeasurementGainsLosses" order="12"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseDecreaseInNetFinancialAssets" xlink:label="psas_IncreaseDecreaseInNetFinancialAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfChangeInNetDebtAbstract" xlink:to="psas_IncreaseDecreaseInNetFinancialAssets" order="13"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_NetFinancialAssetsLiabilities" xlink:label="psas_NetFinancialAssetsLiabilities_start"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfChangeInNetDebtAbstract" xlink:to="psas_NetFinancialAssetsLiabilities_start" order="14" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_NetFinancialAssetsLiabilities" xlink:label="psas_NetFinancialAssetsLiabilities_end"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfChangeInNetDebtAbstract" xlink:to="psas_NetFinancialAssetsLiabilities_end" order="15" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://xbrl.example.org/ca-psas/2026/role/StatementOfChangeInAccumulatedOperatingSurplusDeficit">
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_StatementOfChangeInAccumulatedOperatingSurplusDeficitAbstract" xlink:label="psas_StatementOfChangeInAccumulatedOperatingSurplusDeficitAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AccumulatedOperatingSurplusDeficit" xlink:label="psas_AccumulatedOperatingSurplusDeficit_start"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfChangeInAccumulatedOperatingSurplusDeficitAbstract" xlink:to="psas_AccumulatedOperatingSurplusDeficit_start" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AnnualSurplusDeficit" xlink:label="psas_AnnualSurplusDeficit"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfChangeInAccumulatedOperatingSurplusDeficitAbstract" xlink:to="psas_AnnualSurplusDeficit" order="2"/>
+    <link:loc xlink:type="locator" xlink:href="on-2026.xsd#on_ContributionDeficitOntarioPowerGeneration" xlink:label="on_ContributionDeficitOntarioPowerGeneration"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfChangeInAccumulatedOperatingSurplusDeficitAbstract" xlink:to="on_ContributionDeficitOntarioPowerGeneration" order="3"/>
+    <link:loc xlink:type="locator" xlink:href="on-2026.xsd#on_EquityImpactIfrsAdjustmentOntarioPowerGeneration" xlink:label="on_EquityImpactIfrsAdjustmentOntarioPowerGeneration"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfChangeInAccumulatedOperatingSurplusDeficitAbstract" xlink:to="on_EquityImpactIfrsAdjustmentOntarioPowerGeneration" order="4"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AccumulatedOperatingSurplusDeficit" xlink:label="psas_AccumulatedOperatingSurplusDeficit_end"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfChangeInAccumulatedOperatingSurplusDeficitAbstract" xlink:to="psas_AccumulatedOperatingSurplusDeficit_end" order="5" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://xbrl.example.org/ca-psas/2026/role/StatementOfRemeasurementGainsAndLosses">
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_StatementOfRemeasurementGainsAndLossesAbstract" xlink:label="psas_StatementOfRemeasurementGainsAndLossesAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AccumulatedRemeasurementGainsLosses" xlink:label="psas_AccumulatedRemeasurementGainsLosses_start"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfRemeasurementGainsAndLossesAbstract" xlink:to="psas_AccumulatedRemeasurementGainsLosses_start" order="1" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_UnrealizedGainsLossesForeignExchange" xlink:label="psas_UnrealizedGainsLossesForeignExchange"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfRemeasurementGainsAndLossesAbstract" xlink:to="psas_UnrealizedGainsLossesForeignExchange" order="2"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_UnrealizedGainsLossesDerivatives" xlink:label="psas_UnrealizedGainsLossesDerivatives"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfRemeasurementGainsAndLossesAbstract" xlink:to="psas_UnrealizedGainsLossesDerivatives" order="3"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_UnrealizedGainsLossesPortfolioInvestments" xlink:label="psas_UnrealizedGainsLossesPortfolioInvestments"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfRemeasurementGainsAndLossesAbstract" xlink:to="psas_UnrealizedGainsLossesPortfolioInvestments" order="4"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_OtherComprehensiveIncomeFromGovernmentBusinessEnterprises" xlink:label="psas_OtherComprehensiveIncomeFromGovernmentBusinessEnterprises"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfRemeasurementGainsAndLossesAbstract" xlink:to="psas_OtherComprehensiveIncomeFromGovernmentBusinessEnterprises" order="5"/>
+    <link:loc xlink:type="locator" xlink:href="on-2026.xsd#on_IncreaseInFairValueOfOntarioNuclearFunds" xlink:label="on_IncreaseInFairValueOfOntarioNuclearFunds"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfRemeasurementGainsAndLossesAbstract" xlink:to="on_IncreaseInFairValueOfOntarioNuclearFunds" order="6"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_RemeasurementReclassifiedToOperationsForeignExchange" xlink:label="psas_RemeasurementReclassifiedToOperationsForeignExchange"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfRemeasurementGainsAndLossesAbstract" xlink:to="psas_RemeasurementReclassifiedToOperationsForeignExchange" order="7"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_RemeasurementReclassifiedToOperationsDerivatives" xlink:label="psas_RemeasurementReclassifiedToOperationsDerivatives"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfRemeasurementGainsAndLossesAbstract" xlink:to="psas_RemeasurementReclassifiedToOperationsDerivatives" order="8"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_RemeasurementReclassifiedToOperationsPortfolioInvestments" xlink:label="psas_RemeasurementReclassifiedToOperationsPortfolioInvestments"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfRemeasurementGainsAndLossesAbstract" xlink:to="psas_RemeasurementReclassifiedToOperationsPortfolioInvestments" order="9"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_NetRemeasurementGainsLosses" xlink:label="psas_NetRemeasurementGainsLosses"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfRemeasurementGainsAndLossesAbstract" xlink:to="psas_NetRemeasurementGainsLosses" order="10"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AccumulatedRemeasurementGainsLosses" xlink:label="psas_AccumulatedRemeasurementGainsLosses_end"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfRemeasurementGainsAndLossesAbstract" xlink:to="psas_AccumulatedRemeasurementGainsLosses_end" order="11" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://xbrl.example.org/ca-psas/2026/role/StatementOfCashFlow">
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_StatementOfCashFlowAbstract" xlink:label="psas_StatementOfCashFlowAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AnnualSurplusDeficit" xlink:label="psas_AnnualSurplusDeficit"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_AnnualSurplusDeficit" order="1"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AmortizationOfTangibleCapitalAssets" xlink:label="psas_AmortizationOfTangibleCapitalAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_AmortizationOfTangibleCapitalAssets" order="2"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_LossGainOnSaleOfTangibleCapitalAssets" xlink:label="psas_LossGainOnSaleOfTangibleCapitalAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_LossGainOnSaleOfTangibleCapitalAssets" order="3"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AdjustmentForContributedTangibleCapitalAssets" xlink:label="psas_AdjustmentForContributedTangibleCapitalAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_AdjustmentForContributedTangibleCapitalAssets" order="4"/>
+    <link:loc xlink:type="locator" xlink:href="on-2026.xsd#on_AdjustmentForNonCashTangibleCapitalAssetsFundedByAssetSwap" xlink:label="on_AdjustmentForNonCashTangibleCapitalAssetsFundedByAssetSwap"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="on_AdjustmentForNonCashTangibleCapitalAssetsFundedByAssetSwap" order="5"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncomeFromGovernmentBusinessEnterprises" xlink:label="psas_IncomeFromGovernmentBusinessEnterprises"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_IncomeFromGovernmentBusinessEnterprises" order="6"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AdjustmentForInYearRemeasurementGainsLossesExcludingGovernmentBusinessEnterprises" xlink:label="psas_AdjustmentForInYearRemeasurementGainsLossesExcludingGovernmentBusinessEnterprises"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_AdjustmentForInYearRemeasurementGainsLossesExcludingGovernmentBusinessEnterprises" order="7"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AdjustmentForDeferredLossesFromGovernmentBusinessEnterprises" xlink:label="psas_AdjustmentForDeferredLossesFromGovernmentBusinessEnterprises"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_AdjustmentForDeferredLossesFromGovernmentBusinessEnterprises" order="8"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AdjustmentForDecreaseIncreaseInAccountsReceivable" xlink:label="psas_AdjustmentForDecreaseIncreaseInAccountsReceivable"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_AdjustmentForDecreaseIncreaseInAccountsReceivable" order="9"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AdjustmentForDecreaseIncreaseInLoansReceivable" xlink:label="psas_AdjustmentForDecreaseIncreaseInLoansReceivable"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_AdjustmentForDecreaseIncreaseInLoansReceivable" order="10"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AdjustmentForIncreaseDecreaseInAccountsPayableAndAccruedLiabilities" xlink:label="psas_AdjustmentForIncreaseDecreaseInAccountsPayableAndAccruedLiabilities"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_AdjustmentForIncreaseDecreaseInAccountsPayableAndAccruedLiabilities" order="11"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AdjustmentForIncreaseDecreaseInPensionAndOtherEmployeeFutureBenefitsLiability" xlink:label="psas_AdjustmentForIncreaseDecreaseInPensionAndOtherEmployeeFutureBenefitsLiability"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_AdjustmentForIncreaseDecreaseInPensionAndOtherEmployeeFutureBenefitsLiability" order="12"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AdjustmentForIncreaseDecreaseInOtherLiabilities" xlink:label="psas_AdjustmentForIncreaseDecreaseInOtherLiabilities"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_AdjustmentForIncreaseDecreaseInOtherLiabilities" order="13"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AdjustmentForIncreaseDecreaseInDeferredRevenueAndCapitalContributions" xlink:label="psas_AdjustmentForIncreaseDecreaseInDeferredRevenueAndCapitalContributions"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_AdjustmentForIncreaseDecreaseInDeferredRevenueAndCapitalContributions" order="14"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_RemittancesFromGovernmentBusinessEnterprises" xlink:label="psas_RemittancesFromGovernmentBusinessEnterprises"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_RemittancesFromGovernmentBusinessEnterprises" order="15"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets" xlink:label="psas_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets" order="16"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AdjustmentForDecreaseIncreaseInOtherFinancialAssets" xlink:label="psas_AdjustmentForDecreaseIncreaseInOtherFinancialAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_AdjustmentForDecreaseIncreaseInOtherFinancialAssets" order="17"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_CashProvidedByAppliedToOperatingTransactions" xlink:label="psas_CashProvidedByAppliedToOperatingTransactions"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_CashProvidedByAppliedToOperatingTransactions" order="18"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PaymentsToAcquireTangibleCapitalAssets" xlink:label="psas_PaymentsToAcquireTangibleCapitalAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_PaymentsToAcquireTangibleCapitalAssets" order="19"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_ProceedsOnSaleOfTangibleCapitalAssets" xlink:label="psas_ProceedsOnSaleOfTangibleCapitalAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_ProceedsOnSaleOfTangibleCapitalAssets" order="20"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_CashProvidedByAppliedToCapitalTransactions" xlink:label="psas_CashProvidedByAppliedToCapitalTransactions"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_CashProvidedByAppliedToCapitalTransactions" order="21"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PaymentsToPurchasePortfolioInvestments" xlink:label="psas_PaymentsToPurchasePortfolioInvestments"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_PaymentsToPurchasePortfolioInvestments" order="22"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_ProceedsFromPortfolioInvestmentsRetired" xlink:label="psas_ProceedsFromPortfolioInvestmentsRetired"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_ProceedsFromPortfolioInvestmentsRetired" order="23"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_CapitalContributionsToGovernmentBusinessEnterprises" xlink:label="psas_CapitalContributionsToGovernmentBusinessEnterprises"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_CapitalContributionsToGovernmentBusinessEnterprises" order="24"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_CashProvidedByAppliedToInvestingTransactions" xlink:label="psas_CashProvidedByAppliedToInvestingTransactions"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_CashProvidedByAppliedToInvestingTransactions" order="25"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_ProceedsFromLongTermDebtIssued" xlink:label="psas_ProceedsFromLongTermDebtIssued"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_ProceedsFromLongTermDebtIssued" order="26"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_RepaymentsOfLongTermDebt" xlink:label="psas_RepaymentsOfLongTermDebt"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_RepaymentsOfLongTermDebt" order="27"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_DecreaseIncreaseInUnamortizedDebtDiscountsPremiumsAndCommissions" xlink:label="psas_DecreaseIncreaseInUnamortizedDebtDiscountsPremiumsAndCommissions"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_DecreaseIncreaseInUnamortizedDebtDiscountsPremiumsAndCommissions" order="28"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseDecreaseInShortTermDebt" xlink:label="psas_IncreaseDecreaseInShortTermDebt"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_IncreaseDecreaseInShortTermDebt" order="29"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseDecreaseInOtherLongTermFinancing" xlink:label="psas_IncreaseDecreaseInOtherLongTermFinancing"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_IncreaseDecreaseInOtherLongTermFinancing" order="30"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseDecreaseInDerivativeLiabilities" xlink:label="psas_IncreaseDecreaseInDerivativeLiabilities"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_IncreaseDecreaseInDerivativeLiabilities" order="31"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_DecreaseIncreaseInDerivativeAssets" xlink:label="psas_DecreaseIncreaseInDerivativeAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_DecreaseIncreaseInDerivativeAssets" order="32"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_CashProvidedByAppliedToFinancingTransactions" xlink:label="psas_CashProvidedByAppliedToFinancingTransactions"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_CashProvidedByAppliedToFinancingTransactions" order="33"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseDecreaseInCashAndCashEquivalents" xlink:label="psas_IncreaseDecreaseInCashAndCashEquivalents"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_IncreaseDecreaseInCashAndCashEquivalents" order="34"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_CashAndCashEquivalents" xlink:label="psas_CashAndCashEquivalents_start"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_CashAndCashEquivalents_start" order="35" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_CashAndCashEquivalents" xlink:label="psas_CashAndCashEquivalents_end"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_CashAndCashEquivalents_end" order="36" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_Cash" xlink:label="psas_Cash_end"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_Cash_end" order="37" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_CashEquivalents" xlink:label="psas_CashEquivalents_end"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="psas_StatementOfCashFlowAbstract" xlink:to="psas_CashEquivalents_end" order="38" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"/>
+  </link:presentationLink>
+</link:linkbase>

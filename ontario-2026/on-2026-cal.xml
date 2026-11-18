@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:roleRef roleURI="http://xbrl.example.org/ca-psas/2026/role/StatementOfOperations" xlink:type="simple" xlink:href="../taxonomy/psas-2026.xsd#StatementOfOperations"/>
+  <link:roleRef roleURI="http://xbrl.example.org/ca-psas/2026/role/StatementOfFinancialPosition" xlink:type="simple" xlink:href="../taxonomy/psas-2026.xsd#StatementOfFinancialPosition"/>
+  <link:roleRef roleURI="http://xbrl.example.org/ca-psas/2026/role/AccumulatedSurplusDeficitComponents" xlink:type="simple" xlink:href="../taxonomy/psas-2026.xsd#AccumulatedSurplusDeficitComponents"/>
+  <link:roleRef roleURI="http://xbrl.example.org/ca-psas/2026/role/StatementOfChangeInNetDebt" xlink:type="simple" xlink:href="../taxonomy/psas-2026.xsd#StatementOfChangeInNetDebt"/>
+  <link:roleRef roleURI="http://xbrl.example.org/ca-psas/2026/role/StatementOfRemeasurementGainsAndLosses" xlink:type="simple" xlink:href="../taxonomy/psas-2026.xsd#StatementOfRemeasurementGainsAndLosses"/>
+  <link:roleRef roleURI="http://xbrl.example.org/ca-psas/2026/role/StatementOfCashFlow" xlink:type="simple" xlink:href="../taxonomy/psas-2026.xsd#StatementOfCashFlow"/>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.example.org/ca-psas/2026/role/StatementOfOperations">
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_TaxRevenue" xlink:label="psas_TaxRevenue"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PersonalIncomeTaxRevenue" xlink:label="psas_PersonalIncomeTaxRevenue"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_TaxRevenue" xlink:to="psas_PersonalIncomeTaxRevenue" order="1" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_SalesTaxRevenue" xlink:label="psas_SalesTaxRevenue"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_TaxRevenue" xlink:to="psas_SalesTaxRevenue" order="2" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_CorporateIncomeTaxRevenue" xlink:label="psas_CorporateIncomeTaxRevenue"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_TaxRevenue" xlink:to="psas_CorporateIncomeTaxRevenue" order="3" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PayrollTaxRevenue" xlink:label="psas_PayrollTaxRevenue"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_TaxRevenue" xlink:to="psas_PayrollTaxRevenue" order="4" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PropertyTaxRevenue" xlink:label="psas_PropertyTaxRevenue"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_TaxRevenue" xlink:to="psas_PropertyTaxRevenue" order="5" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="on-2026.xsd#on_OntarioHealthPremiumRevenue" xlink:label="on_OntarioHealthPremiumRevenue"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_TaxRevenue" xlink:to="on_OntarioHealthPremiumRevenue" order="6" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_FuelTaxRevenue" xlink:label="psas_FuelTaxRevenue"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_TaxRevenue" xlink:to="psas_FuelTaxRevenue" order="7" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_OtherTaxRevenue" xlink:label="psas_OtherTaxRevenue"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_TaxRevenue" xlink:to="psas_OtherTaxRevenue" order="8" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_Revenues" xlink:label="psas_Revenues"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_Revenues" xlink:to="psas_TaxRevenue" order="1" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_TransfersFromFederalGovernmentRevenue" xlink:label="psas_TransfersFromFederalGovernmentRevenue"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_Revenues" xlink:to="psas_TransfersFromFederalGovernmentRevenue" order="2" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="on-2026.xsd#on_FeesDonationsAndOtherRevenuesFromBroaderPublicSectorOrganizations" xlink:label="on_FeesDonationsAndOtherRevenuesFromBroaderPublicSectorOrganizations"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_Revenues" xlink:to="on_FeesDonationsAndOtherRevenuesFromBroaderPublicSectorOrganizations" order="3" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncomeFromGovernmentBusinessEnterprises" xlink:label="psas_IncomeFromGovernmentBusinessEnterprises"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_Revenues" xlink:to="psas_IncomeFromGovernmentBusinessEnterprises" order="4" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_InterestAndInvestmentIncome" xlink:label="psas_InterestAndInvestmentIncome"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_Revenues" xlink:to="psas_InterestAndInvestmentIncome" order="5" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_OtherRevenue" xlink:label="psas_OtherRevenue"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_Revenues" xlink:to="psas_OtherRevenue" order="6" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_Expenses" xlink:label="psas_Expenses"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_HealthExpense" xlink:label="psas_HealthExpense"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_Expenses" xlink:to="psas_HealthExpense" order="1" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_EducationExpense" xlink:label="psas_EducationExpense"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_Expenses" xlink:to="psas_EducationExpense" order="2" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_SocialServicesExpense" xlink:label="psas_SocialServicesExpense"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_Expenses" xlink:to="psas_SocialServicesExpense" order="3" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_DebtServicingExpense" xlink:label="psas_DebtServicingExpense"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_Expenses" xlink:to="psas_DebtServicingExpense" order="4" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PostsecondaryEducationExpense" xlink:label="psas_PostsecondaryEducationExpense"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_Expenses" xlink:to="psas_PostsecondaryEducationExpense" order="5" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_JusticeExpense" xlink:label="psas_JusticeExpense"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_Expenses" xlink:to="psas_JusticeExpense" order="6" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_OtherProgramExpense" xlink:label="psas_OtherProgramExpense"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_Expenses" xlink:to="psas_OtherProgramExpense" order="7" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AnnualSurplusDeficit" xlink:label="psas_AnnualSurplusDeficit"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_AnnualSurplusDeficit" xlink:to="psas_Revenues" order="1" weight="1.0"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_AnnualSurplusDeficit" xlink:to="psas_Expenses" order="2" weight="-1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_BudgetReserve" xlink:label="psas_BudgetReserve"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_AnnualSurplusDeficit" xlink:to="psas_BudgetReserve" order="3" weight="-1.0"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.example.org/ca-psas/2026/role/StatementOfFinancialPosition">
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_Liabilities" xlink:label="psas_Liabilities"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AccountsPayableAndAccruedLiabilities" xlink:label="psas_AccountsPayableAndAccruedLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_Liabilities" xlink:to="psas_AccountsPayableAndAccruedLiabilities" order="1" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_Debt" xlink:label="psas_Debt"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_Liabilities" xlink:to="psas_Debt" order="2" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_OtherLongTermFinancing" xlink:label="psas_OtherLongTermFinancing"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_Liabilities" xlink:to="psas_OtherLongTermFinancing" order="3" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_DeferredRevenueAndCapitalContributions" xlink:label="psas_DeferredRevenueAndCapitalContributions"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_Liabilities" xlink:to="psas_DeferredRevenueAndCapitalContributions" order="4" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PensionAndOtherEmployeeFutureBenefitsLiability" xlink:label="psas_PensionAndOtherEmployeeFutureBenefitsLiability"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_Liabilities" xlink:to="psas_PensionAndOtherEmployeeFutureBenefitsLiability" order="5" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_DerivativeLiabilities" xlink:label="psas_DerivativeLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_Liabilities" xlink:to="psas_DerivativeLiabilities" order="6" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_OtherLiabilities" xlink:label="psas_OtherLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_Liabilities" xlink:to="psas_OtherLiabilities" order="7" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_FinancialAssets" xlink:label="psas_FinancialAssets"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_CashAndCashEquivalents" xlink:label="psas_CashAndCashEquivalents"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_FinancialAssets" xlink:to="psas_CashAndCashEquivalents" order="1" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PortfolioInvestments" xlink:label="psas_PortfolioInvestments"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_FinancialAssets" xlink:to="psas_PortfolioInvestments" order="2" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AccountsReceivable" xlink:label="psas_AccountsReceivable"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_FinancialAssets" xlink:to="psas_AccountsReceivable" order="3" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_LoansReceivable" xlink:label="psas_LoansReceivable"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_FinancialAssets" xlink:to="psas_LoansReceivable" order="4" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_DerivativeAssets" xlink:label="psas_DerivativeAssets"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_FinancialAssets" xlink:to="psas_DerivativeAssets" order="5" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_OtherFinancialAssets" xlink:label="psas_OtherFinancialAssets"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_FinancialAssets" xlink:to="psas_OtherFinancialAssets" order="6" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_InvestmentInGovernmentBusinessEnterprises" xlink:label="psas_InvestmentInGovernmentBusinessEnterprises"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_FinancialAssets" xlink:to="psas_InvestmentInGovernmentBusinessEnterprises" order="7" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_NetFinancialAssetsLiabilities" xlink:label="psas_NetFinancialAssetsLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_NetFinancialAssetsLiabilities" xlink:to="psas_FinancialAssets" order="1" weight="1.0"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_NetFinancialAssetsLiabilities" xlink:to="psas_Liabilities" order="2" weight="-1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_NonFinancialAssets" xlink:label="psas_NonFinancialAssets"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_TangibleCapitalAssets" xlink:label="psas_TangibleCapitalAssets"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_NonFinancialAssets" xlink:to="psas_TangibleCapitalAssets" order="1" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PrepaidExpensesAndOtherNonFinancialAssets" xlink:label="psas_PrepaidExpensesAndOtherNonFinancialAssets"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_NonFinancialAssets" xlink:to="psas_PrepaidExpensesAndOtherNonFinancialAssets" order="2" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AccumulatedSurplusDeficit" xlink:label="psas_AccumulatedSurplusDeficit"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_AccumulatedSurplusDeficit" xlink:to="psas_NetFinancialAssetsLiabilities" order="1" weight="1.0"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_AccumulatedSurplusDeficit" xlink:to="psas_NonFinancialAssets" order="2" weight="1.0"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.example.org/ca-psas/2026/role/AccumulatedSurplusDeficitComponents">
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AccumulatedSurplusDeficit" xlink:label="psas_AccumulatedSurplusDeficit"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AccumulatedOperatingSurplusDeficit" xlink:label="psas_AccumulatedOperatingSurplusDeficit"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_AccumulatedSurplusDeficit" xlink:to="psas_AccumulatedOperatingSurplusDeficit" order="1" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AccumulatedRemeasurementGainsLosses" xlink:label="psas_AccumulatedRemeasurementGainsLosses"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_AccumulatedSurplusDeficit" xlink:to="psas_AccumulatedRemeasurementGainsLosses" order="2" weight="1.0"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.example.org/ca-psas/2026/role/StatementOfChangeInNetDebt">
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets" xlink:label="psas_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AcquisitionOfTangibleCapitalAssets" xlink:label="psas_AcquisitionOfTangibleCapitalAssets"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets" xlink:to="psas_AcquisitionOfTangibleCapitalAssets" order="1" weight="-1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AmortizationOfTangibleCapitalAssets" xlink:label="psas_AmortizationOfTangibleCapitalAssets"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets" xlink:to="psas_AmortizationOfTangibleCapitalAssets" order="2" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_ProceedsOnSaleOfTangibleCapitalAssets" xlink:label="psas_ProceedsOnSaleOfTangibleCapitalAssets"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets" xlink:to="psas_ProceedsOnSaleOfTangibleCapitalAssets" order="3" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_LossGainOnSaleOfTangibleCapitalAssets" xlink:label="psas_LossGainOnSaleOfTangibleCapitalAssets"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets" xlink:to="psas_LossGainOnSaleOfTangibleCapitalAssets" order="4" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseInTangibleCapitalAssetsFromAssetRetirementObligationRevaluation" xlink:label="psas_IncreaseInTangibleCapitalAssetsFromAssetRetirementObligationRevaluation"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets" xlink:to="psas_IncreaseInTangibleCapitalAssetsFromAssetRetirementObligationRevaluation" order="5" weight="-1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets" xlink:label="psas_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets" xlink:to="psas_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets" order="6" weight="-1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement" xlink:label="psas_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AnnualSurplusDeficit" xlink:label="psas_AnnualSurplusDeficit"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement" xlink:to="psas_AnnualSurplusDeficit" order="1" weight="1.0"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement" xlink:to="psas_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets" order="2" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="on-2026.xsd#on_ContributionDeficitOntarioPowerGeneration" xlink:label="on_ContributionDeficitOntarioPowerGeneration"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement" xlink:to="on_ContributionDeficitOntarioPowerGeneration" order="3" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="on-2026.xsd#on_EquityImpactIfrsAdjustmentOntarioPowerGeneration" xlink:label="on_EquityImpactIfrsAdjustmentOntarioPowerGeneration"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement" xlink:to="on_EquityImpactIfrsAdjustmentOntarioPowerGeneration" order="4" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseDecreaseInNetFinancialAssets" xlink:label="psas_IncreaseDecreaseInNetFinancialAssets"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_IncreaseDecreaseInNetFinancialAssets" xlink:to="psas_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement" order="1" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_NetRemeasurementGainsLosses" xlink:label="psas_NetRemeasurementGainsLosses"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_IncreaseDecreaseInNetFinancialAssets" xlink:to="psas_NetRemeasurementGainsLosses" order="2" weight="1.0"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.example.org/ca-psas/2026/role/StatementOfRemeasurementGainsAndLosses">
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_NetRemeasurementGainsLosses" xlink:label="psas_NetRemeasurementGainsLosses"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_UnrealizedGainsLossesForeignExchange" xlink:label="psas_UnrealizedGainsLossesForeignExchange"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_NetRemeasurementGainsLosses" xlink:to="psas_UnrealizedGainsLossesForeignExchange" order="1" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_UnrealizedGainsLossesDerivatives" xlink:label="psas_UnrealizedGainsLossesDerivatives"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_NetRemeasurementGainsLosses" xlink:to="psas_UnrealizedGainsLossesDerivatives" order="2" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_UnrealizedGainsLossesPortfolioInvestments" xlink:label="psas_UnrealizedGainsLossesPortfolioInvestments"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_NetRemeasurementGainsLosses" xlink:to="psas_UnrealizedGainsLossesPortfolioInvestments" order="3" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_OtherComprehensiveIncomeFromGovernmentBusinessEnterprises" xlink:label="psas_OtherComprehensiveIncomeFromGovernmentBusinessEnterprises"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_NetRemeasurementGainsLosses" xlink:to="psas_OtherComprehensiveIncomeFromGovernmentBusinessEnterprises" order="4" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="on-2026.xsd#on_IncreaseInFairValueOfOntarioNuclearFunds" xlink:label="on_IncreaseInFairValueOfOntarioNuclearFunds"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_NetRemeasurementGainsLosses" xlink:to="on_IncreaseInFairValueOfOntarioNuclearFunds" order="5" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_RemeasurementReclassifiedToOperationsForeignExchange" xlink:label="psas_RemeasurementReclassifiedToOperationsForeignExchange"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_NetRemeasurementGainsLosses" xlink:to="psas_RemeasurementReclassifiedToOperationsForeignExchange" order="6" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_RemeasurementReclassifiedToOperationsDerivatives" xlink:label="psas_RemeasurementReclassifiedToOperationsDerivatives"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_NetRemeasurementGainsLosses" xlink:to="psas_RemeasurementReclassifiedToOperationsDerivatives" order="7" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_RemeasurementReclassifiedToOperationsPortfolioInvestments" xlink:label="psas_RemeasurementReclassifiedToOperationsPortfolioInvestments"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_NetRemeasurementGainsLosses" xlink:to="psas_RemeasurementReclassifiedToOperationsPortfolioInvestments" order="8" weight="1.0"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.example.org/ca-psas/2026/role/StatementOfCashFlow">
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_CashProvidedByAppliedToOperatingTransactions" xlink:label="psas_CashProvidedByAppliedToOperatingTransactions"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AnnualSurplusDeficit" xlink:label="psas_AnnualSurplusDeficit"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToOperatingTransactions" xlink:to="psas_AnnualSurplusDeficit" order="1" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AmortizationOfTangibleCapitalAssets" xlink:label="psas_AmortizationOfTangibleCapitalAssets"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToOperatingTransactions" xlink:to="psas_AmortizationOfTangibleCapitalAssets" order="2" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_LossGainOnSaleOfTangibleCapitalAssets" xlink:label="psas_LossGainOnSaleOfTangibleCapitalAssets"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToOperatingTransactions" xlink:to="psas_LossGainOnSaleOfTangibleCapitalAssets" order="3" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AdjustmentForContributedTangibleCapitalAssets" xlink:label="psas_AdjustmentForContributedTangibleCapitalAssets"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToOperatingTransactions" xlink:to="psas_AdjustmentForContributedTangibleCapitalAssets" order="4" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="on-2026.xsd#on_AdjustmentForNonCashTangibleCapitalAssetsFundedByAssetSwap" xlink:label="on_AdjustmentForNonCashTangibleCapitalAssetsFundedByAssetSwap"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToOperatingTransactions" xlink:to="on_AdjustmentForNonCashTangibleCapitalAssetsFundedByAssetSwap" order="5" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncomeFromGovernmentBusinessEnterprises" xlink:label="psas_IncomeFromGovernmentBusinessEnterprises"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToOperatingTransactions" xlink:to="psas_IncomeFromGovernmentBusinessEnterprises" order="6" weight="-1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AdjustmentForInYearRemeasurementGainsLossesExcludingGovernmentBusinessEnterprises" xlink:label="psas_AdjustmentForInYearRemeasurementGainsLossesExcludingGovernmentBusinessEnterprises"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToOperatingTransactions" xlink:to="psas_AdjustmentForInYearRemeasurementGainsLossesExcludingGovernmentBusinessEnterprises" order="7" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AdjustmentForDeferredLossesFromGovernmentBusinessEnterprises" xlink:label="psas_AdjustmentForDeferredLossesFromGovernmentBusinessEnterprises"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToOperatingTransactions" xlink:to="psas_AdjustmentForDeferredLossesFromGovernmentBusinessEnterprises" order="8" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AdjustmentForDecreaseIncreaseInAccountsReceivable" xlink:label="psas_AdjustmentForDecreaseIncreaseInAccountsReceivable"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToOperatingTransactions" xlink:to="psas_AdjustmentForDecreaseIncreaseInAccountsReceivable" order="9" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AdjustmentForDecreaseIncreaseInLoansReceivable" xlink:label="psas_AdjustmentForDecreaseIncreaseInLoansReceivable"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToOperatingTransactions" xlink:to="psas_AdjustmentForDecreaseIncreaseInLoansReceivable" order="10" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AdjustmentForIncreaseDecreaseInAccountsPayableAndAccruedLiabilities" xlink:label="psas_AdjustmentForIncreaseDecreaseInAccountsPayableAndAccruedLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToOperatingTransactions" xlink:to="psas_AdjustmentForIncreaseDecreaseInAccountsPayableAndAccruedLiabilities" order="11" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AdjustmentForIncreaseDecreaseInPensionAndOtherEmployeeFutureBenefitsLiability" xlink:label="psas_AdjustmentForIncreaseDecreaseInPensionAndOtherEmployeeFutureBenefitsLiability"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToOperatingTransactions" xlink:to="psas_AdjustmentForIncreaseDecreaseInPensionAndOtherEmployeeFutureBenefitsLiability" order="12" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AdjustmentForIncreaseDecreaseInOtherLiabilities" xlink:label="psas_AdjustmentForIncreaseDecreaseInOtherLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToOperatingTransactions" xlink:to="psas_AdjustmentForIncreaseDecreaseInOtherLiabilities" order="13" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AdjustmentForIncreaseDecreaseInDeferredRevenueAndCapitalContributions" xlink:label="psas_AdjustmentForIncreaseDecreaseInDeferredRevenueAndCapitalContributions"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToOperatingTransactions" xlink:to="psas_AdjustmentForIncreaseDecreaseInDeferredRevenueAndCapitalContributions" order="14" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_RemittancesFromGovernmentBusinessEnterprises" xlink:label="psas_RemittancesFromGovernmentBusinessEnterprises"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToOperatingTransactions" xlink:to="psas_RemittancesFromGovernmentBusinessEnterprises" order="15" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets" xlink:label="psas_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToOperatingTransactions" xlink:to="psas_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets" order="16" weight="-1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AdjustmentForDecreaseIncreaseInOtherFinancialAssets" xlink:label="psas_AdjustmentForDecreaseIncreaseInOtherFinancialAssets"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToOperatingTransactions" xlink:to="psas_AdjustmentForDecreaseIncreaseInOtherFinancialAssets" order="17" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_CashProvidedByAppliedToCapitalTransactions" xlink:label="psas_CashProvidedByAppliedToCapitalTransactions"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PaymentsToAcquireTangibleCapitalAssets" xlink:label="psas_PaymentsToAcquireTangibleCapitalAssets"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToCapitalTransactions" xlink:to="psas_PaymentsToAcquireTangibleCapitalAssets" order="1" weight="-1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_ProceedsOnSaleOfTangibleCapitalAssets" xlink:label="psas_ProceedsOnSaleOfTangibleCapitalAssets"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToCapitalTransactions" xlink:to="psas_ProceedsOnSaleOfTangibleCapitalAssets" order="2" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_CashProvidedByAppliedToInvestingTransactions" xlink:label="psas_CashProvidedByAppliedToInvestingTransactions"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PaymentsToPurchasePortfolioInvestments" xlink:label="psas_PaymentsToPurchasePortfolioInvestments"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToInvestingTransactions" xlink:to="psas_PaymentsToPurchasePortfolioInvestments" order="1" weight="-1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_ProceedsFromPortfolioInvestmentsRetired" xlink:label="psas_ProceedsFromPortfolioInvestmentsRetired"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToInvestingTransactions" xlink:to="psas_ProceedsFromPortfolioInvestmentsRetired" order="2" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_CapitalContributionsToGovernmentBusinessEnterprises" xlink:label="psas_CapitalContributionsToGovernmentBusinessEnterprises"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToInvestingTransactions" xlink:to="psas_CapitalContributionsToGovernmentBusinessEnterprises" order="3" weight="-1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_CashProvidedByAppliedToFinancingTransactions" xlink:label="psas_CashProvidedByAppliedToFinancingTransactions"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_ProceedsFromLongTermDebtIssued" xlink:label="psas_ProceedsFromLongTermDebtIssued"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToFinancingTransactions" xlink:to="psas_ProceedsFromLongTermDebtIssued" order="1" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_RepaymentsOfLongTermDebt" xlink:label="psas_RepaymentsOfLongTermDebt"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToFinancingTransactions" xlink:to="psas_RepaymentsOfLongTermDebt" order="2" weight="-1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_DecreaseIncreaseInUnamortizedDebtDiscountsPremiumsAndCommissions" xlink:label="psas_DecreaseIncreaseInUnamortizedDebtDiscountsPremiumsAndCommissions"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToFinancingTransactions" xlink:to="psas_DecreaseIncreaseInUnamortizedDebtDiscountsPremiumsAndCommissions" order="3" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseDecreaseInShortTermDebt" xlink:label="psas_IncreaseDecreaseInShortTermDebt"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToFinancingTransactions" xlink:to="psas_IncreaseDecreaseInShortTermDebt" order="4" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseDecreaseInOtherLongTermFinancing" xlink:label="psas_IncreaseDecreaseInOtherLongTermFinancing"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToFinancingTransactions" xlink:to="psas_IncreaseDecreaseInOtherLongTermFinancing" order="5" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseDecreaseInDerivativeLiabilities" xlink:label="psas_IncreaseDecreaseInDerivativeLiabilities"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToFinancingTransactions" xlink:to="psas_IncreaseDecreaseInDerivativeLiabilities" order="6" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_DecreaseIncreaseInDerivativeAssets" xlink:label="psas_DecreaseIncreaseInDerivativeAssets"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashProvidedByAppliedToFinancingTransactions" xlink:to="psas_DecreaseIncreaseInDerivativeAssets" order="7" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseDecreaseInCashAndCashEquivalents" xlink:label="psas_IncreaseDecreaseInCashAndCashEquivalents"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_IncreaseDecreaseInCashAndCashEquivalents" xlink:to="psas_CashProvidedByAppliedToOperatingTransactions" order="1" weight="1.0"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_IncreaseDecreaseInCashAndCashEquivalents" xlink:to="psas_CashProvidedByAppliedToCapitalTransactions" order="2" weight="1.0"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_IncreaseDecreaseInCashAndCashEquivalents" xlink:to="psas_CashProvidedByAppliedToInvestingTransactions" order="3" weight="1.0"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_IncreaseDecreaseInCashAndCashEquivalents" xlink:to="psas_CashProvidedByAppliedToFinancingTransactions" order="4" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_CashAndCashEquivalents" xlink:label="psas_CashAndCashEquivalents"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_Cash" xlink:label="psas_Cash"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashAndCashEquivalents" xlink:to="psas_Cash" order="1" weight="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_CashEquivalents" xlink:label="psas_CashEquivalents"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="psas_CashAndCashEquivalents" xlink:to="psas_CashEquivalents" order="2" weight="1.0"/>
+  </link:calculationLink>
+</link:linkbase>

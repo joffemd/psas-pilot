@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:roleRef roleURI="http://xbrl.example.org/ca-psas/2026/role/StatementOfOperations" xlink:type="simple" xlink:href="../taxonomy/psas-2026.xsd#StatementOfOperations"/>
+  <link:roleRef roleURI="http://xbrl.example.org/ca-psas/2026/role/StatementOfChangeInNetDebt" xlink:type="simple" xlink:href="../taxonomy/psas-2026.xsd#StatementOfChangeInNetDebt"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://xbrl.example.org/ca-psas/2026/role/StatementOfOperations">
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_BudgetComparisonLineItems" xlink:label="psas_BudgetComparisonLineItems"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_BudgetComparisonTable" xlink:label="psas_BudgetComparisonTable"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_StatementScenarioAxis" xlink:label="psas_StatementScenarioAxis"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_ScenarioDomain" xlink:label="psas_ScenarioDomain"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_ActualMember" xlink:label="psas_ActualMember"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_BudgetMember" xlink:label="psas_BudgetMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_BudgetComparisonTable" xbrldt:contextElement="segment" xbrldt:closed="true" order="1"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="psas_BudgetComparisonTable" xlink:to="psas_StatementScenarioAxis" order="1"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="psas_StatementScenarioAxis" xlink:to="psas_ScenarioDomain" order="1"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_ScenarioDomain" xlink:to="psas_ActualMember" order="1"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_ScenarioDomain" xlink:to="psas_BudgetMember" order="2"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="psas_StatementScenarioAxis" xlink:to="psas_ActualMember" order="1"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PersonalIncomeTaxRevenue" xlink:label="psas_PersonalIncomeTaxRevenue"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_PersonalIncomeTaxRevenue" order="1"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_SalesTaxRevenue" xlink:label="psas_SalesTaxRevenue"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_SalesTaxRevenue" order="2"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_CorporateIncomeTaxRevenue" xlink:label="psas_CorporateIncomeTaxRevenue"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_CorporateIncomeTaxRevenue" order="3"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PayrollTaxRevenue" xlink:label="psas_PayrollTaxRevenue"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_PayrollTaxRevenue" order="4"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PropertyTaxRevenue" xlink:label="psas_PropertyTaxRevenue"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_PropertyTaxRevenue" order="5"/>
+    <link:loc xlink:type="locator" xlink:href="on-2026.xsd#on_OntarioHealthPremiumRevenue" xlink:label="on_OntarioHealthPremiumRevenue"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="on_OntarioHealthPremiumRevenue" order="6"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_FuelTaxRevenue" xlink:label="psas_FuelTaxRevenue"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_FuelTaxRevenue" order="7"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_OtherTaxRevenue" xlink:label="psas_OtherTaxRevenue"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_OtherTaxRevenue" order="8"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_TaxRevenue" xlink:label="psas_TaxRevenue"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_TaxRevenue" order="9"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_TransfersFromFederalGovernmentRevenue" xlink:label="psas_TransfersFromFederalGovernmentRevenue"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_TransfersFromFederalGovernmentRevenue" order="10"/>
+    <link:loc xlink:type="locator" xlink:href="on-2026.xsd#on_FeesDonationsAndOtherRevenuesFromBroaderPublicSectorOrganizations" xlink:label="on_FeesDonationsAndOtherRevenuesFromBroaderPublicSectorOrganizations"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="on_FeesDonationsAndOtherRevenuesFromBroaderPublicSectorOrganizations" order="11"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncomeFromGovernmentBusinessEnterprises" xlink:label="psas_IncomeFromGovernmentBusinessEnterprises"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_IncomeFromGovernmentBusinessEnterprises" order="12"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_InterestAndInvestmentIncome" xlink:label="psas_InterestAndInvestmentIncome"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_InterestAndInvestmentIncome" order="13"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_OtherRevenue" xlink:label="psas_OtherRevenue"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_OtherRevenue" order="14"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_Revenues" xlink:label="psas_Revenues"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_Revenues" order="15"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_HealthExpense" xlink:label="psas_HealthExpense"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_HealthExpense" order="16"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_EducationExpense" xlink:label="psas_EducationExpense"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_EducationExpense" order="17"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_SocialServicesExpense" xlink:label="psas_SocialServicesExpense"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_SocialServicesExpense" order="18"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_DebtServicingExpense" xlink:label="psas_DebtServicingExpense"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_DebtServicingExpense" order="19"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_PostsecondaryEducationExpense" xlink:label="psas_PostsecondaryEducationExpense"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_PostsecondaryEducationExpense" order="20"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_JusticeExpense" xlink:label="psas_JusticeExpense"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_JusticeExpense" order="21"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_OtherProgramExpense" xlink:label="psas_OtherProgramExpense"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_OtherProgramExpense" order="22"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_Expenses" xlink:label="psas_Expenses"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_Expenses" order="23"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_BudgetReserve" xlink:label="psas_BudgetReserve"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_BudgetReserve" order="24"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AnnualSurplusDeficit" xlink:label="psas_AnnualSurplusDeficit"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_AnnualSurplusDeficit" order="25"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://xbrl.example.org/ca-psas/2026/role/StatementOfChangeInNetDebt">
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_BudgetComparisonLineItems" xlink:label="psas_BudgetComparisonLineItems"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_BudgetComparisonTable" xlink:label="psas_BudgetComparisonTable"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_StatementScenarioAxis" xlink:label="psas_StatementScenarioAxis"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_ScenarioDomain" xlink:label="psas_ScenarioDomain"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_ActualMember" xlink:label="psas_ActualMember"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_BudgetMember" xlink:label="psas_BudgetMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_BudgetComparisonTable" xbrldt:contextElement="segment" xbrldt:closed="true" order="1"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="psas_BudgetComparisonTable" xlink:to="psas_StatementScenarioAxis" order="1"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="psas_StatementScenarioAxis" xlink:to="psas_ScenarioDomain" order="1"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_ScenarioDomain" xlink:to="psas_ActualMember" order="1"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_ScenarioDomain" xlink:to="psas_BudgetMember" order="2"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="psas_StatementScenarioAxis" xlink:to="psas_ActualMember" order="1"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AnnualSurplusDeficit" xlink:label="psas_AnnualSurplusDeficit"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_AnnualSurplusDeficit" order="1"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AcquisitionOfTangibleCapitalAssets" xlink:label="psas_AcquisitionOfTangibleCapitalAssets"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_AcquisitionOfTangibleCapitalAssets" order="2"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_AmortizationOfTangibleCapitalAssets" xlink:label="psas_AmortizationOfTangibleCapitalAssets"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_AmortizationOfTangibleCapitalAssets" order="3"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_ProceedsOnSaleOfTangibleCapitalAssets" xlink:label="psas_ProceedsOnSaleOfTangibleCapitalAssets"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_ProceedsOnSaleOfTangibleCapitalAssets" order="4"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_LossGainOnSaleOfTangibleCapitalAssets" xlink:label="psas_LossGainOnSaleOfTangibleCapitalAssets"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_LossGainOnSaleOfTangibleCapitalAssets" order="5"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseInTangibleCapitalAssetsFromAssetRetirementObligationRevaluation" xlink:label="psas_IncreaseInTangibleCapitalAssetsFromAssetRetirementObligationRevaluation"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_IncreaseInTangibleCapitalAssetsFromAssetRetirementObligationRevaluation" order="6"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets" xlink:label="psas_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_IncreaseDecreaseInPrepaidExpensesAndOtherNonFinancialAssets" order="7"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets" xlink:label="psas_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_EffectOfNonFinancialAssetTransactionsOnNetFinancialAssets" order="8"/>
+    <link:loc xlink:type="locator" xlink:href="on-2026.xsd#on_ContributionDeficitOntarioPowerGeneration" xlink:label="on_ContributionDeficitOntarioPowerGeneration"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="on_ContributionDeficitOntarioPowerGeneration" order="9"/>
+    <link:loc xlink:type="locator" xlink:href="on-2026.xsd#on_EquityImpactIfrsAdjustmentOntarioPowerGeneration" xlink:label="on_EquityImpactIfrsAdjustmentOntarioPowerGeneration"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="on_EquityImpactIfrsAdjustmentOntarioPowerGeneration" order="10"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement" xlink:label="psas_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_IncreaseDecreaseInNetFinancialAssetsExcludingRemeasurement" order="11"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_NetRemeasurementGainsLosses" xlink:label="psas_NetRemeasurementGainsLosses"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_NetRemeasurementGainsLosses" order="12"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_IncreaseDecreaseInNetFinancialAssets" xlink:label="psas_IncreaseDecreaseInNetFinancialAssets"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_IncreaseDecreaseInNetFinancialAssets" order="13"/>
+    <link:loc xlink:type="locator" xlink:href="../taxonomy/psas-2026.xsd#psas_NetFinancialAssetsLiabilities" xlink:label="psas_NetFinancialAssetsLiabilities"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="psas_BudgetComparisonLineItems" xlink:to="psas_NetFinancialAssetsLiabilities" order="14"/>
+  </link:definitionLink>
+</link:linkbase>

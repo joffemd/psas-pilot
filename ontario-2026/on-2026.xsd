@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:on="http://xbrl.example.org/ca-on/2026" xmlns:psas="http://xbrl.example.org/ca-psas/2026" targetNamespace="http://xbrl.example.org/ca-on/2026" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xsd:annotation><xsd:appinfo>
+    <link:linkbaseRef xlink:type="simple" xlink:href="on-2026-lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+    <link:linkbaseRef xlink:type="simple" xlink:href="on-2026-pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+    <link:linkbaseRef xlink:type="simple" xlink:href="on-2026-cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+    <link:linkbaseRef xlink:type="simple" xlink:href="on-2026-def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+  </xsd:appinfo></xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://xbrl.example.org/ca-psas/2026" schemaLocation="../taxonomy/psas-2026.xsd"/>
+  <xsd:element id="on_OntarioHealthPremiumRevenue" name="OntarioHealthPremiumRevenue" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="on_FeesDonationsAndOtherRevenuesFromBroaderPublicSectorOrganizations" name="FeesDonationsAndOtherRevenuesFromBroaderPublicSectorOrganizations" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="on_ContributionDeficitOntarioPowerGeneration" name="ContributionDeficitOntarioPowerGeneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="on_EquityImpactIfrsAdjustmentOntarioPowerGeneration" name="EquityImpactIfrsAdjustmentOntarioPowerGeneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="on_IncreaseInFairValueOfOntarioNuclearFunds" name="IncreaseInFairValueOfOntarioNuclearFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+  <xsd:element id="on_AdjustmentForNonCashTangibleCapitalAssetsFundedByAssetSwap" name="AdjustmentForNonCashTangibleCapitalAssetsFundedByAssetSwap" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true"/>
+</xsd:schema>
